@@ -1,0 +1,20 @@
+dataset: ImageNet-3L/F
+n_clients: 10
+rounds: 150
+local_epochs: 1
+batch_size: 512
+learning_rate: 0.05
+optimizer: SGD
+momentum: 0.9
+weight_decay: 0.0
+full_participation: true
+checkpoint: final_round
+alpha_cls: 0.5
+alpha_dep: 0.5
+representation: fixed DINO ResNet-50
+partition_seeds: [1, 2, 3]
+initialization_seeds: [20001, 20002, 20003]
+minibatch_order_seeds: [30001, 30002, 30003]
+loss: exact marginalized path NLL
+focal_subtree_rule: five-leaf subordinate with training support closest to eligible median
+focal_subtree_tie_break: not_recovered

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "FedGrain: Identifiable Fine-Grained Recognition from Federated Mixed-Granularity Supervision"
+message: "If you use this software, please cite the associated article."
+type: software
+authors:
+  - family-names: Pujol
+    given-names: Francisco A.
+  - family-names: Martínez-García
+    given-names: Ana
+  - family-names: Pujol
+    given-names: Mar
+  - family-names: Mora
+    given-names: Higinio
+version: 0.2.0-rc2
+date-released: 2026-09-16
+repository-code: "https://github.com/bigpacopujol/FedGrain"

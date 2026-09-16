@@ -1,0 +1,81 @@
+dataset,experiment,condition,method_or_endpoint,metric,scope,mean,sd,seed,value,unit,provenance_level,manuscript_eligible,notes
+CIFAR-100,main_comparison,default,Flat,leaf_accuracy,all leaves,37.74,2.6,,,percent,aggregate_only,true,
+CIFAR-100,main_comparison,default,Tree,leaf_accuracy,all leaves,37.86,1.52,,,percent,aggregate_only,true,
+CIFAR-100,main_comparison,default,FedGrain,leaf_accuracy,all leaves,38.08,2.12,,,percent,aggregate_only,true,
+iNat-Aves,main_comparison,default,Flat,leaf_accuracy,all leaves,29.1,0.77,,,percent,aggregate_only,true,
+iNat-Aves,main_comparison,default,Tree,leaf_accuracy,all leaves,38.25,2.31,,,percent,aggregate_only,true,
+iNat-Aves,main_comparison,default,FedGrain,leaf_accuracy,all leaves,40.45,2.34,,,percent,aggregate_only,true,
+ImageNet-3L/F,main_comparison,default,Flat,leaf_accuracy,all leaves,52.68,7.77,,,percent,partial,true,
+ImageNet-3L/F,main_comparison,default,Tree,leaf_accuracy,all leaves,59.52,3.71,,,percent,partial,true,
+ImageNet-3L/F,main_comparison,default,FedGrain,leaf_accuracy,all leaves,59.38,2.67,,,percent,partial,true,
+CIFAR-100,main_comparison,default,Flat,raw_internal_node_prediction,complete taxonomy,56.24,32.6,,,percent,aggregate_only,true,
+iNat-Aves,main_comparison,default,Flat,raw_internal_node_prediction,complete taxonomy,87.46,2.28,,,percent,aggregate_only,true,
+ImageNet-3L/F,main_comparison,default,Flat,raw_internal_node_prediction,complete taxonomy,87.42,9.45,,,percent,aggregate_only,true,
+CIFAR-100,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,0.12,1.09,,,percentage_points,partial,true,
+CIFAR-100,paired_difference,default,FedGrain-Tree,leaf_accuracy_difference,all leaves,0.22,0.64,,,percentage_points,partial,true,
+iNat-Aves,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,9.17,2.72,,,percentage_points,partial,true,
+iNat-Aves,paired_difference,default,FedGrain-Tree,leaf_accuracy_difference,all leaves,2.23,3.96,,,percentage_points,partial,true,
+ImageNet-3L/F,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,6.84,4.07,,,percentage_points,partial,true,
+ImageNet-3L/F,paired_difference,default,FedGrain-Tree,leaf_accuracy_difference,all leaves,-0.13,1.05,,,percentage_points,partial,true,
+iNat-Aves,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,1,6.1,percentage_points,partial,true,Run IDs not recovered; seed index is presentation order only.
+iNat-Aves,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,2,11.3,percentage_points,partial,true,Run IDs not recovered; seed index is presentation order only.
+iNat-Aves,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,3,10.1,percentage_points,partial,true,Run IDs not recovered; seed index is presentation order only.
+iNat-Aves,paired_difference,default,FedGrain-Tree,leaf_accuracy_difference,all leaves,,,1,6.8,percentage_points,partial,true,Run IDs not recovered; seed index is presentation order only.
+iNat-Aves,paired_difference,default,FedGrain-Tree,leaf_accuracy_difference,all leaves,,,2,0.2,percentage_points,partial,true,Run IDs not recovered; seed index is presentation order only.
+iNat-Aves,paired_difference,default,FedGrain-Tree,leaf_accuracy_difference,all leaves,,,3,-0.3,percentage_points,partial,true,Run IDs not recovered; seed index is presentation order only.
+ImageNet-3L/F,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,1,5.56,percentage_points,complete,true,
+ImageNet-3L/F,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,2,11.39,percentage_points,complete,true,
+ImageNet-3L/F,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,3,3.55,percentage_points,complete,true,
+ImageNet-3L/F,paired_difference,default,FedGrain-Tree,leaf_accuracy_difference,all leaves,,,1,-0.19,percentage_points,partial,true,
+ImageNet-3L/F,paired_difference,default,FedGrain-Tree,leaf_accuracy_difference,all leaves,,,2,0.95,percentage_points,partial,true,
+ImageNet-3L/F,paired_difference,default,FedGrain-Tree,leaf_accuracy_difference,all leaves,,,3,-1.16,percentage_points,partial,true,
+CIFAR-100,coverage_removal,vehicles_1,Reference,leaf_accuracy,target leaves,40.47,1.41,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,vehicles_1,Coverage removed,leaf_accuracy,target leaves,8.33,2.53,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,small_mammals,Reference,leaf_accuracy,target leaves,19.0,2.69,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,small_mammals,Coverage removed,leaf_accuracy,target leaves,2.67,0.47,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,flowers,Reference,leaf_accuracy,target leaves,40.6,2.47,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,flowers,Coverage removed,leaf_accuracy,target leaves,14.2,2.2,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,vehicles_1,Reference,leaf_accuracy,other 95 leaves,33.07,0.15,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,vehicles_1,Coverage removed,leaf_accuracy,other 95 leaves,33.2,0.09,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,small_mammals,Reference,leaf_accuracy,other 95 leaves,34.2,0.28,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,small_mammals,Coverage removed,leaf_accuracy,other 95 leaves,34.12,0.3,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,flowers,Reference,leaf_accuracy,other 95 leaves,33.06,0.17,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,flowers,Coverage removed,leaf_accuracy,other 95 leaves,33.08,0.11,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,vehicles_1,Reference,marginal_prefix_accuracy,superclass,62.07,2.39,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,vehicles_1,Coverage removed,marginal_prefix_accuracy,superclass,62.27,1.86,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,small_mammals,Reference,marginal_prefix_accuracy,superclass,41.2,3.56,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,small_mammals,Coverage removed,marginal_prefix_accuracy,superclass,40.73,6.4,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,flowers,Reference,marginal_prefix_accuracy,superclass,80.47,0.46,,,percent,aggregate_only,true,
+CIFAR-100,coverage_removal,flowers,Coverage removed,marginal_prefix_accuracy,superclass,79.27,1.8,,,percent,aggregate_only,true,
+iNat-Aves,coverage_removal,Petroica,Reference,leaf_accuracy,target species,56.94,9.62,,,percent,partial,true,
+iNat-Aves,coverage_removal,Petroica,Coverage removed,leaf_accuracy,target species,15.28,6.36,,,percent,partial,true,
+iNat-Aves,coverage_removal,Petroica,Reference,leaf_accuracy,"other 1,481 species",38.36,0.96,,,percent,partial,true,
+iNat-Aves,coverage_removal,Petroica,Coverage removed,leaf_accuracy,"other 1,481 species",38.45,0.99,,,percent,partial,true,
+iNat-Aves,coverage_removal,Petroica,Reference,marginal_prefix_accuracy,Petroica genus,80.56,6.36,,,percent,partial,true,
+iNat-Aves,coverage_removal,Petroica,Coverage removed,marginal_prefix_accuracy,Petroica genus,81.94,6.36,,,percent,partial,true,
+iNat-Aves,coverage_removal,Petroica,Coverage removed - Reference,leaf_accuracy_difference,target species,-41.67,12.5,,,percentage_points,partial,true,
+iNat-Aves,coverage_removal,Petroica,Coverage removed - Reference,leaf_accuracy_difference,"other 1,481 species",0.09,0.11,,,percentage_points,partial,true,
+iNat-Aves,coverage_removal,Petroica,Coverage removed - Reference,marginal_prefix_accuracy_difference,Petroica genus,1.39,2.4,,,percentage_points,partial,true,
+ImageNet-3L/F,coverage_removal,median-support five-leaf subordinate,Reference,leaf_accuracy,target leaves,65.87,5.55,,,percent,partial,true,
+ImageNet-3L/F,coverage_removal,median-support five-leaf subordinate,Coverage removed,leaf_accuracy,target leaves,19.07,3.21,,,percent,partial,true,
+ImageNet-3L/F,coverage_removal,median-support five-leaf subordinate,Reference,leaf_accuracy,other 500 leaves,59.32,2.67,,,percent,partial,true,
+ImageNet-3L/F,coverage_removal,median-support five-leaf subordinate,Coverage removed,leaf_accuracy,other 500 leaves,59.35,2.67,,,percent,partial,true,
+ImageNet-3L/F,coverage_removal,median-support five-leaf subordinate,Reference,marginal_prefix_accuracy,subordinate,79.2,1.2,,,percent,partial,true,
+ImageNet-3L/F,coverage_removal,median-support five-leaf subordinate,Coverage removed,marginal_prefix_accuracy,subordinate,79.2,1.2,,,percent,partial,true,
+ImageNet-3L/F,coverage_removal,median-support five-leaf subordinate,Reference,conditional_head_accuracy,subordinate head,80.27,1.01,,,percent,partial,true,
+ImageNet-3L/F,coverage_removal,median-support five-leaf subordinate,Coverage removed,conditional_head_accuracy,subordinate head,80.27,1.01,,,percent,partial,true,
+CIFAR-100,cohort_overlap_sweep,overlap=1.00,FedGrain-Tree,leaf_accuracy_difference,all leaves,-0.07,0.07,,,percentage_points,aggregate_only,true,
+CIFAR-100,cohort_overlap_sweep,overlap=0.80,FedGrain-Tree,leaf_accuracy_difference,all leaves,0.34,0.3,,,percentage_points,aggregate_only,true,
+CIFAR-100,cohort_overlap_sweep,overlap=0.50,FedGrain-Tree,leaf_accuracy_difference,all leaves,0.57,0.37,,,percentage_points,aggregate_only,true,
+CIFAR-100,cohort_overlap_sweep,overlap=0.20,FedGrain-Tree,leaf_accuracy_difference,all leaves,0.62,1.07,,,percentage_points,aggregate_only,true,
+CIFAR-100,cohort_overlap_sweep,overlap=0.10,FedGrain-Tree,leaf_accuracy_difference,all leaves,0.87,0.44,,,percentage_points,aggregate_only,true,
+CIFAR-100,server_mass_ablation,default,FedGrain weighting,leaf_accuracy,all leaves,,,1,35.77,percent,complete,true,partition_seed=10001; training_seed=20001
+CIFAR-100,server_mass_ablation,default,Active cohort only,leaf_accuracy,all leaves,,,1,35.94,percent,complete,true,partition_seed=10001; training_seed=20001
+CIFAR-100,server_mass_ablation,default,FedGrain weighting - Active cohort only,leaf_accuracy_difference,all leaves,,,1,-0.17,percentage_points,complete,true,partition_seed=10001; training_seed=20001
+CIFAR-100,server_mass_ablation,default,FedGrain weighting,leaf_accuracy,all leaves,,,2,39.92,percent,complete,true,partition_seed=10002; training_seed=20002
+CIFAR-100,server_mass_ablation,default,Active cohort only,leaf_accuracy,all leaves,,,2,39.01,percent,complete,true,partition_seed=10002; training_seed=20002
+CIFAR-100,server_mass_ablation,default,FedGrain weighting - Active cohort only,leaf_accuracy_difference,all leaves,,,2,0.91,percentage_points,complete,true,partition_seed=10002; training_seed=20002
+CIFAR-100,server_mass_ablation,default,FedGrain weighting,leaf_accuracy,all leaves,,,3,38.56,percent,complete,true,partition_seed=10003; training_seed=20003
+CIFAR-100,server_mass_ablation,default,Active cohort only,leaf_accuracy,all leaves,,,3,38.23,percent,complete,true,partition_seed=10003; training_seed=20003
+CIFAR-100,server_mass_ablation,default,FedGrain weighting - Active cohort only,leaf_accuracy_difference,all leaves,,,3,0.33,percentage_points,complete,true,partition_seed=10003; training_seed=20003
+CIFAR-100,server_mass_ablation,default,FedGrain weighting - Active cohort only,leaf_accuracy_difference,all leaves,0.36,0.54,,,percentage_points,complete,true,

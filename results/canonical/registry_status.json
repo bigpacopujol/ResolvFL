@@ -1,0 +1,7 @@
+{
+  "registry": "FedGrain manuscript-facing canonical results",
+  "version": "0.2.0-rc2",
+  "metric_contract": "v1.0.0",
+  "current_export": "manuscript_results.csv",
+  "generated": "2026-09-16"
+}

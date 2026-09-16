@@ -1,0 +1,15 @@
+dataset: CIFAR-100
+n_clients: 10
+rounds: 150
+local_epochs: 1
+batch_size: 128
+learning_rate: 0.05
+optimizer: SGD
+momentum: 0.9
+weight_decay: 0.0
+full_participation: true
+checkpoint: final_round
+alpha_cls: 0.5
+alpha_dep: 0.5
+representation: trainable ConvNet
+runs: [1, 2, 3]
