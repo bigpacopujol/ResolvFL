@@ -1,45 +1,55 @@
+"""Validate artifact consistency and explicit exclusions; does not certify training runs."""
 from pathlib import Path
 import csv
+import json
 
 ROOT = Path(__file__).resolve().parents[1]
-required = [
-    ROOT / "results/canonical/manuscript_results.csv",
-    ROOT / "docs/METRIC_CONTRACT.md",
-    ROOT / "configs/cifar100.yaml",
-    ROOT / "configs/inat_aves.yaml",
-    ROOT / "configs/imagenet_3lf.yaml",
-]
-missing = [str(p.relative_to(ROOT)) for p in required if not p.exists()]
-if missing:
-    raise SystemExit("Missing required files: " + ", ".join(missing))
+IDENTITY = ('dataset', 'experiment', 'condition', 'method_or_endpoint', 'metric', 'scope', 'seed', 'run_index')
+METRICS = {'leaf_accuracy', 'leaf_accuracy_difference', 'marginal_prefix_accuracy',
+           'marginal_prefix_accuracy_difference', 'conditional_head_accuracy', 'raw_internal_node_prediction'}
 
-with (ROOT / "results/canonical/manuscript_results.csv").open(encoding="utf-8") as f:
-    rows = list(csv.DictReader(f))
 
-if not rows:
-    raise SystemExit("Canonical manuscript export is empty")
+def read_pair(base):
+    with base.with_suffix('.csv').open(encoding='utf-8', newline='') as f:
+        rows = list(csv.DictReader(f))
+    normalized = []
+    for row in rows:
+        r = row.copy()
+        for key in ('mean', 'sd', 'value'):
+            r[key] = float(r[key]) if r[key] else None
+        for key in ('seed', 'run_index'):
+            r[key] = int(r[key]) if r[key] else None
+        normalized.append(r)
+    if normalized != json.loads(base.with_suffix('.json').read_text(encoding='utf-8')):
+        raise ValueError(f'CSV/JSON mismatch: {base}')
+    return rows
 
-required_columns = {
-    "dataset", "experiment", "method_or_endpoint", "metric", "scope",
-    "manuscript_eligible",
-}
-missing_columns = required_columns.difference(rows[0])
-if missing_columns:
-    raise SystemExit("Missing registry columns: " + ", ".join(sorted(missing_columns)))
 
-metric_contract = {
-    "leaf_accuracy",
-    "leaf_accuracy_difference",
-    "marginal_prefix_accuracy",
-    "marginal_prefix_accuracy_difference",
-    "conditional_head_accuracy",
-    "raw_internal_node_prediction",
-}
+def validate(root=ROOT):
+    accepted = read_pair(root / 'results/canonical/manuscript_results')
+    excluded = read_pair(root / 'results/quarantine/unpromoted_results')
+    status = json.loads((root / 'results/canonical/registry_status.json').read_text())
+    if len(accepted) != status['accepted_records'] or len(excluded) != status['quarantined_records']:
+        raise ValueError('Registry counts disagree with registry_status.json')
+    identities = set()
+    for row in accepted:
+        if row['manuscript_eligible'] != 'true' or row['metric'] not in METRICS:
+            raise ValueError('Invalid eligibility or metric in accepted registry')
+        identity = tuple(row[k] for k in IDENTITY)
+        if identity in identities:
+            raise ValueError(f'Duplicate accepted record: {identity}')
+        identities.add(identity)
+        if row['dataset'] == 'iNat-Aves' and row['experiment'] == 'paired_difference' and row['value']:
+            if row['seed'] or not row['run_index']:
+                raise ValueError('iNat presentation indices must not be labelled as seeds')
+    for row in excluded:
+        if row['manuscript_eligible'] != 'false':
+            raise ValueError('Quarantined record marked eligible')
+        if tuple(row[k] for k in IDENTITY) in identities:
+            raise ValueError('Quarantined summary reintroduced in accepted registry')
+    return len(accepted), len(excluded)
 
-for row in rows:
-    if row["manuscript_eligible"].lower() != "true":
-        raise SystemExit("Canonical export contains a row outside the manuscript set")
-    if row["metric"] not in metric_contract:
-        raise SystemExit(f"Unknown metric in canonical export: {row['metric']}")
 
-print(f"OK: {len(rows)} manuscript records validated against metric contract v1.0.0.")
+if __name__ == '__main__':
+    accepted, excluded = validate()
+    print(f'OK: {accepted} accepted records; {excluded} quarantined; CSV/JSON consistent. This validates artifacts, not executed training.')

@@ -1,10 +1,10 @@
 # Metric contract v1.0.0
 
-FedGrain uses four metric families. Their decoder and evaluation scope are fixed for all manuscript-facing results.
+ResolvFL uses four metric families. Their decoder and evaluation scope are fixed for all manuscript-facing results.
 
 ## Leaf accuracy
 
-For Tree/FedGrain, the global posterior of a leaf is the product of conditional probabilities along its root-to-leaf path. Prediction is the leaf with maximum global posterior.
+For Tree/ResolvFL, the global posterior of a leaf is the product of conditional probabilities along its root-to-leaf path. Prediction is the leaf with maximum global posterior.
 
 For Flat, the output distribution is restricted to leaf nodes, renormalized over those leaves, and decoded by leaf argmax.
 
@@ -26,4 +26,5 @@ For Flat models, this diagnostic reports the fraction of examples whose unrestri
 
 ## Implementation
 
-The reference implementations are in `src/fedgrain/metrics.py`, and unit tests are in `tests/test_metrics.py`.
+The reference implementations are in `src/resolvfl/metrics.py`, and unit tests are in `tests/test_metrics.py`.
+

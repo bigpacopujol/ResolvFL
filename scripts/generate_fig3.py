@@ -1,19 +1,32 @@
-from pathlib import Path
+"""Optional comparison figure: paired observations where available, otherwise mean/SD."""
 import matplotlib.pyplot as plt
-import numpy as np
+from _registry import load_rows, select, one, save_figure
 
-ROOT=Path(__file__).resolve().parents[1]
-labels=["CIFAR: Tree - Flat","CIFAR: FedGrain - Tree","iNat-Aves: Tree - Flat","iNat-Aves: FedGrain - Tree","ImageNet: Tree - Flat","ImageNet: FedGrain - Tree"]
-means=np.array([0.12,0.22,9.17,2.23,6.84,-0.13])
-sds=np.array([1.09,0.64,2.72,3.96,4.07,1.05])
-y=np.arange(len(labels))
-fig,ax=plt.subplots(figsize=(7.6,4.4))
-ax.errorbar(means,y,xerr=sds,fmt="o",capsize=3)
-ax.axvline(0,linestyle="--",linewidth=1)
-ax.set_yticks(y); ax.set_yticklabels(labels)
-ax.set_xlabel("Leaf-accuracy difference (percentage points)")
-ax.invert_yaxis(); ax.grid(axis="x",alpha=.35)
-ax.spines["top"].set_visible(False); ax.spines["right"].set_visible(False)
+rows = load_rows()
+fig, ax = plt.subplots(figsize=(8.4, 4.8))
+labels = []; used = set()
+for dataset in ('CIFAR-100', 'iNat-Aves', 'ImageNet-3L/F'):
+    for contrast in ('Tree-Flat', 'ResolvFL-Tree'):
+        y = len(labels)
+        labels.append(f"{dataset}: {contrast.replace('-', ' - ')}")
+        records = select(rows, dataset=dataset, experiment='paired_difference', condition='default',
+                         method_or_endpoint=contrast, metric='leaf_accuracy_difference', scope='all leaves')
+        paired = [r for r in records if r['value'] != '']
+        if paired:
+            label = 'Paired observations'
+            ax.scatter([float(r['value']) for r in paired], [y] * len(paired), color='C0',
+                       marker='o', label=label if label not in used else None)
+        else:
+            summary = one(records, value='')
+            label = 'Mean ± sample SD'
+            ax.errorbar(float(summary['mean']), y, xerr=float(summary['sd']), fmt='s', color='C1',
+                        capsize=3, label=label if label not in used else None)
+        used.add(label)
+ax.axvline(0, linestyle='--', linewidth=1)
+ax.set_yticks(range(len(labels)), labels)
+ax.set_xlabel('Leaf-accuracy difference (percentage points)')
+ax.invert_yaxis(); ax.grid(axis='x', alpha=.35)
+ax.spines[['top', 'right']].set_visible(False)
+ax.legend(frameon=False, loc='upper center', bbox_to_anchor=(.5, -.17), ncol=2)
 fig.tight_layout()
-for ext in ("pdf","png"):
-    fig.savefig(ROOT / f"figures/fig_paired_differences.{ext}", dpi=300 if ext=="png" else None, bbox_inches="tight")
+save_figure(fig, 'fig_paired_differences')

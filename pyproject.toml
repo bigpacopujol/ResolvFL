@@ -3,8 +3,8 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fedgrain"
-version = "0.2.0rc2"
+name = "resolvfl"
+version = "0.2.0rc4"
 description = "Fine-grained recognition from federated mixed-granularity supervision"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -20,3 +20,7 @@ dev = ["pytest>=7.4"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
