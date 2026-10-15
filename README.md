@@ -131,7 +131,9 @@ results/canonical/  manuscript-facing result registry
 results/derived/    generated manuscript tables
 scripts/            validation and figure/table generation
 docs/               dataset, experiment and metric documentation
-figures/             regenerated manuscript figures
+experiments/recovered/ recovered Colab notebooks and Python sources
+results/recovered/ original saved run outputs and source hashes
+figures/            regenerated manuscript figures
 ```
 
 ## Reproducibility

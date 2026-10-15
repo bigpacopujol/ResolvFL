@@ -1,6 +1,6 @@
 # Recovered experiment sources — 2026-10-15
 
-The author supplied the original Colab notebooks, Python scripts and saved run archives. These sources are preserved under `experiments/recovered/`; recovered JSON outputs are under `results/recovered/`. Their historical FedGrain names identify the original runs of the method now named ResolvFL. They are not renamed internally because checkpoint names and resume paths depend on them.
+The author supplied the original Colab notebooks, Python scripts and saved run archives. These sources are available under `experiments/recovered/`; recovered JSON outputs are under `results/recovered/`. Their historical FedGrain names identify the original runs of the method now named ResolvFL. Executable identifiers, filenames and paths are retained because checkpoint names and resume paths depend on them. Notebook prose and selected comments have been edited without changing executable tokens.
 
 ## Which source to use
 
@@ -28,14 +28,14 @@ The accepted registry remains unchanged. Raw evidence includes obsolete metrics 
 - CIFAR and iNat sum cross-entropies over proper-ancestor decisions and divide by the full minibatch size. Both recreate SGD for each client in each round, with momentum 0.9 and default zero weight decay.
 - CIFAR and iNat aggregate shared backbone/projection states across all clients by sample count. Node-head weights are proportional to client sample count times local supervision fraction. An empty cohort leaves the first local head state; equality with the broadcast state relies on the head receiving no updates.
 - ImageNet's audited notebook uses sum-reduced path terms divided by full minibatch size, fixed input features, supervision-count weights for active heads, and explicit broadcast retention for an empty cohort.
-- **Protocol discrepancy:** ImageNet's audited tree and flat loops construct `SGD(parameters, lr=LR)` without momentum, hence momentum 0. This differs from the master's general momentum-0.9 statement. The recovered source must not be silently modified to 0.9 and represented as the executed code. Reconcile the manuscript protocol with this evidence.
+- **Protocol discrepancy:** ImageNet's audited tree and flat loops construct `SGD(parameters, lr=LR)` without momentum, hence momentum 0. This differs from the manuscript's general momentum-0.9 description. The recovered source must not be silently modified to 0.9 and represented as the executed code. Reconcile the manuscript protocol with this evidence.
 - Runtime versions and exact resume histories are not established by static source inspection. No claim of full execution equivalence is made.
 
 ## Metrics and remaining dependencies
 
 The intervention code in these recovered notebooks computes ancestor-of-decoded-leaf metrics. Those outputs are not marginal prefix accuracy. The later evaluation scripts/outputs supporting the accepted marginal-prefix values have not been recovered in this batch. Keep them separate; never replace the accepted marginal results with the older JSON fields.
 
-Petroica remains **five species**, as fixed in the master and reconfirmed by the author on 2026-10-15. A historical summary reports four; that stale field is not promoted or used to revise the accepted setting.
+Petroica remains **five species**, in the accepted experimental setting. A historical summary reports four; that stale field is not promoted or used to revise the accepted setting.
 
 Missing inputs include `fedgrain_inat/aves_features.npz` and its preparation pipeline, and ImageNet `train_labels.npy`, `val_labels.npy`, `train_features.npy`, `val_features.npy`. The supplied `features dino.zip` contains only metadata/progress JSON. Its metadata lists two label columns, while the audited training loader requires at least three; the actual final arrays must resolve this lineage issue. Large feature arrays need not be committed to GitHub.
 
@@ -43,4 +43,4 @@ Model checkpoint archives were supplied but are not committed here. Some local Z
 
 ## Checks
 
-Run `python scripts/check_recovered_results.py` to compare recovered main results with the accepted registry. This check reads saved outputs only and does not train models. SHA-256 hashes of the recovered source files and JSON evidence are in `results/recovered/source_manifest.json`.
+Run `python scripts/check_recovered_results.py` to compare recovered main results with the accepted registry. This check reads saved outputs only and does not train models. Original attachment hashes and current edited-file SHA-256 hashes, together with unchanged JSON evidence hashes, are in `results/recovered/source_manifest.json`.

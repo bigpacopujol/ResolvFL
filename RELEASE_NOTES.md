@@ -1,7 +1,7 @@
 # Release candidate 0.2.0-rc4 — 2026-10-15
 
 - Rename the method to ResolvFL, the Python package to `resolvfl`, and the aggregation entry point to `resolvfl_endpoint_average`.
-- Align the accepted registry with the consolidated MASTER: 76 accepted records and four separately quarantined iNat summaries; preserve all accepted numerical values.
+- Align the accepted registry with the accepted result registry: 76 accepted records and four separately quarantined iNat summaries; preserve all accepted numerical values.
 - Separate iNat presentation indices from random seeds.
 - Generate all figures from the accepted registry. Show available paired observations in the optional comparison figure.
 - Compute empirical supervision counts bottom-up in linear time and locate maximal uncovered roots with one top-down traversal.

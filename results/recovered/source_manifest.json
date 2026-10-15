@@ -212,28 +212,38 @@
     },
     {
       "path": "experiments/recovered/FedGrain_CIFAR100.ipynb",
-      "sha256": "7911e5f518628f75864021a0781fdf578e37f92443f83b6e9577c5cd832b1025",
-      "source": "user attachment"
+      "sha256": "6918bf0d3bb9504f6394473419550b004045dee8f4fdaf9aa9d49f9828dc7e46",
+      "source": "user attachment",
+      "original_sha256": "7911e5f518628f75864021a0781fdf578e37f92443f83b6e9577c5cd832b1025",
+      "editorial_changes": "Markdown and comment-only cleanup; executable tokens and metadata unchanged."
     },
     {
       "path": "experiments/recovered/FedGrain_CIFAR100_seed_paired.ipynb",
-      "sha256": "51b01a18fcc06225ca0db73c66f9dd48f391f1ff5cc9792ed682be868a047911",
-      "source": "user attachment"
+      "sha256": "a8192c2fb682c28fd8cfb27a0d9c10e91f207253647cfc306f0eea7008cc0360",
+      "source": "user attachment",
+      "original_sha256": "51b01a18fcc06225ca0db73c66f9dd48f391f1ff5cc9792ed682be868a047911",
+      "editorial_changes": "Markdown and comment-only cleanup; executable tokens and metadata unchanged."
     },
     {
       "path": "experiments/recovered/FedGrain_ImageNet3LF.ipynb",
-      "sha256": "4b7d701e942678e132233347c7dfb3dee85ad7192b1754b53769c6b46338d76f",
-      "source": "user attachment"
+      "sha256": "5b0f8dd1a3a4e6909684073d2aa16ac0de900d79d0bd9ec8ba349ee143247481",
+      "source": "user attachment",
+      "original_sha256": "4b7d701e942678e132233347c7dfb3dee85ad7192b1754b53769c6b46338d76f",
+      "editorial_changes": "Markdown and comment-only cleanup; executable tokens and metadata unchanged."
     },
     {
       "path": "experiments/recovered/FedGrain_ImageNet3LF_audited_violation.ipynb",
-      "sha256": "52675c8af281a7409ac5ccc13bc8358c1e59c0b6fe396559ea5c009f3098f6c7",
-      "source": "user attachment"
+      "sha256": "3431552652832e40615ed1594365c24337cc4ef7a98d1bd9041f18b427b08859",
+      "source": "user attachment",
+      "original_sha256": "52675c8af281a7409ac5ccc13bc8358c1e59c0b6fe396559ea5c009f3098f6c7",
+      "editorial_changes": "Markdown and comment-only cleanup; executable tokens and metadata unchanged."
     },
     {
       "path": "experiments/recovered/FedGrain_iNat_Aves.ipynb",
-      "sha256": "a60b99138832e05fb856816e76b4757e73fc3137d4cf5298d2a8030c354d1a33",
-      "source": "user attachment"
+      "sha256": "6ffbe375d64d78d2102d693eac0343b5823e2f1b481908b24f9ac9bcfceff6aa",
+      "source": "user attachment",
+      "original_sha256": "a60b99138832e05fb856816e76b4757e73fc3137d4cf5298d2a8030c354d1a33",
+      "editorial_changes": "Markdown and comment-only cleanup; executable tokens and metadata unchanged."
     },
     {
       "path": "experiments/recovered/extract_dino_features.py",
