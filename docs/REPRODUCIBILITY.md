@@ -43,15 +43,11 @@ python scripts/generate_fig3.py
 
 Dataset-specific configurations are stored in `configs/` and summarized in `docs/EXPERIMENTS.md`. The default protocol uses 10 clients, 150 communication rounds, one local epoch per round, full participation, and final-round evaluation.
 
-The registry records the provenance level available for each result. These annotations do not replace original run logs or checkpoints. The six iNat main paired observations have presentation indices in `run_index`; their original seeds and run identifiers remain unknown.
+The registry records the provenance level available for each result. These annotations do not replace original run logs or checkpoints. The six iNat main paired observations retain presentation indices in `run_index`. Recovered source/JSON now identifies main seed labels 1–3; the canonical mapping has not been changed.
 
 ## Current release scope
 
-This release provides core computations and regeneration of manuscript artifacts from the accepted result registry. It does not contain the dataset-specific model definitions, feature extraction pipeline, training loop, dataset taxonomy assets, or original run logs/checkpoints needed for end-to-end experiment reproduction.
-
-Protocol configurations document the intended manuscript settings. They cannot establish which settings were executed. In particular, minibatch loss reduction, optimizer recreation, masking, and shared-parameter aggregation still require comparison with the original training source. The iNat main run IDs and the taxonomy membership/selection of the intervention subtrees also remain open.
-
-The registry contains 76 accepted records. Four historical iNat summaries are kept in `results/quarantine/` pending provenance verification and an explicit promotion decision. The validator checks exclusion, CSV/JSON consistency, uniqueness and metric names; passing it does not certify experimental reproducibility.
+Core computations, the accepted artifact registry, recovered Colab/Python training sources and saved JSON outputs are available. [RECOVERED_EXPERIMENTS.md](RECOVERED_EXPERIMENTS.md) identifies valid versus historical sources and records the static audit. Data/feature inputs, later marginal-prefix evaluation provenance and the ImageNet momentum discrepancy remain open. The accepted numerical registry is unchanged; raw recovered outputs are not automatically eligible for manuscript exports.
 
 ## Coverage implementation
 

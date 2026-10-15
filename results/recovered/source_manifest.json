@@ -1,0 +1,253 @@
+{
+  "files": [
+    {
+      "path": "results/recovered/fedgrain_cifar100/multi_node_violation.json",
+      "sha256": "e3fca60f2e98da010f8643e2776272ab6b86dc65cf4fd40d058f4fcccc24ab65",
+      "source": "fedgrain_cifar100.zip::fedgrain_cifar100/multi_node_violation.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_cifar100/table1_multiseed_partitioned_v2.json",
+      "sha256": "6f67c425e54e2ad7ea9ffade59e3e0f72543a8d2ef01cc63ea42aae349d804e4",
+      "source": "fedgrain_cifar100.zip::fedgrain_cifar100/table1_multiseed_partitioned_v2.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_cifar100/e1_multiseed.json",
+      "sha256": "988b5a9c37439d542a0d57f769c24aaf32da5e971abc601a27910a14a224e363",
+      "source": "fedgrain_cifar100.zip::fedgrain_cifar100/e1_multiseed.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_cifar100/partition_fingerprints_table1_main.json",
+      "sha256": "d4e7c43dbdbd0c858694c39a58c3ba091a2610d7c9cdb6241751a90c979e34be",
+      "source": "fedgrain_cifar100.zip::fedgrain_cifar100/partition_fingerprints_table1_main.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_cifar100/weight_diagnostic_overlap_0.5_seed1.json",
+      "sha256": "d6d46bdf1ad934eca6b9f95fb7f05a51e535836edf96167545e93d0ba28f636b",
+      "source": "fedgrain_cifar100.zip::fedgrain_cifar100/weight_diagnostic_overlap_0.5_seed1.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_cifar100/weight_diagnostic_table1_main_partition.json",
+      "sha256": "6dd46a2f7d587529bde3aed6d16e77783a5c60561ed82e24d09b18175c86c763",
+      "source": "fedgrain_cifar100.zip::fedgrain_cifar100/weight_diagnostic_table1_main_partition.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_cifar100/overlap_sweep.json",
+      "sha256": "6a01788fd0145c9bdbbd59792323c6f0589fdf8e160f39f97627e0ff869a528a",
+      "source": "fedgrain_cifar100.zip::fedgrain_cifar100/overlap_sweep.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_cifar100/grid_3seed.json",
+      "sha256": "aca08066baa209736b50a942aa2c2fa02ff0bb4d2fd97526fddb6a4d82c8bad8",
+      "source": "fedgrain_cifar100.zip::fedgrain_cifar100/grid_3seed.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_cifar100/results_summary.json",
+      "sha256": "b8f23a48f3e3da1fb3b61d32f58086dc4a90b0b6e693d5d2a48ced1b564fef49",
+      "source": "fedgrain_cifar100.zip::fedgrain_cifar100/results_summary.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_cifar100/e1_full_grid.json",
+      "sha256": "c176fbcad92cce2b98281cd0e972ecd5b85191d9990be4450a84edf764a34930",
+      "source": "fedgrain_cifar100.zip::fedgrain_cifar100/e1_full_grid.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_cifar100/overlap_trajectory.json",
+      "sha256": "65af80cc029eccb5a18dae0ae03202a29c80d40fe221f6bdf7c5263996823efa",
+      "source": "fedgrain_cifar100.zip::fedgrain_cifar100/overlap_trajectory.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_cifar100/ablation_no_extra_mass/ablation_no_extra_mass_results.json",
+      "sha256": "1bd55b1d4b8009065a4b1cfacbe57fbe9b805ccbc9aedcd51f7c6669856bc71a",
+      "source": "fedgrain_cifar100.zip::fedgrain_cifar100/ablation_no_extra_mass/ablation_no_extra_mass_results.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_inat_aves/multiseed_main.json",
+      "sha256": "b0181e416576a07ed2e2d6aec657b4892fe75412ad8b073fa7d37cb9a351634b",
+      "source": "fedgrain_inat_aves.zip::fedgrain_inat_aves/multiseed_main.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_inat_aves/rho_cohort_overlap.json",
+      "sha256": "0f9638210e88ecb38674f23064dac51bc48946b59e8797b6fe939653ead0e5c3",
+      "source": "fedgrain_inat_aves.zip::fedgrain_inat_aves/rho_cohort_overlap.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_inat_aves/e1_trajectory_Petroica_TRAJFIX.json",
+      "sha256": "f128b5c7442ead21379dff93f41e97e679034dba94496bf966dd9f38f8e6d3ab",
+      "source": "fedgrain_inat_aves.zip::fedgrain_inat_aves/e1_trajectory_Petroica_TRAJFIX.json"
+    },
+    {
+      "path": "results/recovered/fedgrain_inat_aves/results_summary.json",
+      "sha256": "7b408eba245511732fe0842c1993fbed1551dcaf5ed1ab61cf7c2e0f70bec211",
+      "source": "fedgrain_inat_aves.zip::fedgrain_inat_aves/results_summary.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/imagenet3lf_main_results.json",
+      "sha256": "1cccfda0fb262b3c4c5c6aaf6e8d709b53bdb3c3bf18b7e5380fe56faeb25991",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/imagenet3lf_main_results.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/imagenet3lf_tree_masked_seed1_log.json",
+      "sha256": "9489984a2934becd8390cd33e8a19f5cfdb596c266355f567257d065e89e2c01",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/imagenet3lf_tree_masked_seed1_log.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/imagenet3lf_canonical_summary.json",
+      "sha256": "acffcb78a7ab5831c454af252fe5602df712fb6c51184401f0fa20c459f0cb32",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/imagenet3lf_canonical_summary.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/imagenet3lf_tree_unmasked_seed2_log.json",
+      "sha256": "d35cd533054e6664a5f1afc07de512bf6e9cc9c2322570806485e2dcc2da5c3f",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/imagenet3lf_tree_unmasked_seed2_log.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/imagenet3lf_tree_unmasked_seed3_log.json",
+      "sha256": "d93fa2a414813a9232bc9f4c89db08c367c118c5e3a1f3e38a17df6875ee97c0",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/imagenet3lf_tree_unmasked_seed3_log.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/imagenet3lf_tree_masked_seed3_log.json",
+      "sha256": "13538b36d94e8a0fbfa66c1ae24dbf83014a98a3815ec3463cc938c8de1c9e90",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/imagenet3lf_tree_masked_seed3_log.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/imagenet3lf_tree_masked_seed2_log.json",
+      "sha256": "25bfdc45b0035914a1d37f0d070d8272cbd654b02eb7dbd1ba7ecad8ac36d4b7",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/imagenet3lf_tree_masked_seed2_log.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/imagenet3lf_tree_unmasked_seed1_log.json",
+      "sha256": "5abc9858c6cd2460427eae71f2d10dedea0e7dc76d3cb2e686b9954eb6a406eb",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/imagenet3lf_tree_unmasked_seed1_log.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v3_exact_pathloss_violation/imagenet3lf_violation_canonical_summary.json",
+      "sha256": "7fdc68f1fb1ca0b6f33bf267edce4577834efe68bcbc990d820805121e74148c",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v3_exact_pathloss_violation/imagenet3lf_violation_canonical_summary.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_target_selection.json",
+      "sha256": "74094b8183ee35d1a72537b10b92d7e20d6b12da2a32a838a00f170df226617f",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_target_selection.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v3_exact_pathloss_violation/imagenet3lf_violation_results.json",
+      "sha256": "92f23ec3d1884e8ea792f2c50d66a8271d57f5938b974d3ffc854022a084602d",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v3_exact_pathloss_violation/imagenet3lf_violation_results.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v3_exact_pathloss_violation/partition_seed1_diagnostics.json",
+      "sha256": "4582ecb03d3c0225cdeae48a3eba3a96510363033f7c9108480041b77dd5c9e4",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v3_exact_pathloss_violation/partition_seed1_diagnostics.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v3_exact_pathloss_violation/partition_seed2_diagnostics.json",
+      "sha256": "28cdc6a00936886a9358763f2edae5d1470ebdd7cf910c9b115fc72de7ec4f87",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v3_exact_pathloss_violation/partition_seed2_diagnostics.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v3_exact_pathloss_violation/partition_seed3_diagnostics.json",
+      "sha256": "44352146a1015525d4f01c3f95688a36322935f08213902ccaf45f325e38c1ca",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v3_exact_pathloss_violation/partition_seed3_diagnostics.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_certificate_summary.json",
+      "sha256": "b96d110bb9cc50b10a792b10ad6eaf0d048ebfc03ea436e0be000987dd4469d2",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_certificate_summary.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/imagenet3lf_violation_canonical_summary.json",
+      "sha256": "d00925d7f942be86fb11a7e6f543a59c2bff07f13e9ac6cce65a6ede370c9fab",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v4_exact_pathloss_violation_full/imagenet3lf_violation_canonical_summary.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/violation_target_selection.json",
+      "sha256": "74094b8183ee35d1a72537b10b92d7e20d6b12da2a32a838a00f170df226617f",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v4_exact_pathloss_violation_full/violation_target_selection.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/imagenet3lf_main_results_audited.json",
+      "sha256": "9d5f4230534184c4ed2b739693766737ecd1dd1988aa34cb93c382ac1fa9a6cc",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v4_exact_pathloss_violation_full/imagenet3lf_main_results_audited.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/imagenet3lf_violation_results.json",
+      "sha256": "98b487812227d03def26f2fba0a528c79c4153aa2ac6f5ed8d7c4b71e799aae7",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v4_exact_pathloss_violation_full/imagenet3lf_violation_results.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/partition_seed1_diagnostics.json",
+      "sha256": "4582ecb03d3c0225cdeae48a3eba3a96510363033f7c9108480041b77dd5c9e4",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v4_exact_pathloss_violation_full/partition_seed1_diagnostics.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/partition_seed2_diagnostics.json",
+      "sha256": "28cdc6a00936886a9358763f2edae5d1470ebdd7cf910c9b115fc72de7ec4f87",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v4_exact_pathloss_violation_full/partition_seed2_diagnostics.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/partition_seed3_diagnostics.json",
+      "sha256": "44352146a1015525d4f01c3f95688a36322935f08213902ccaf45f325e38c1ca",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v4_exact_pathloss_violation_full/partition_seed3_diagnostics.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/violation_certificate_summary.json",
+      "sha256": "b96d110bb9cc50b10a792b10ad6eaf0d048ebfc03ea436e0be000987dd4469d2",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v4_exact_pathloss_violation_full/violation_certificate_summary.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_subord24_violated/tree_seed1_log.json",
+      "sha256": "0b4f892b847fcc68de808910994db48829b0f5a918de1cc124c0832301deb4d6",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_subord24_violated/tree_seed1_log.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_subord24_violated/tree_seed2_log.json",
+      "sha256": "8a99e1e10be4052661dbfa4b836ce9bd520be6d2275746d13e63f1ad9f5d6266",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_subord24_violated/tree_seed2_log.json"
+    },
+    {
+      "path": "results/recovered/imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_subord24_violated/tree_seed3_log.json",
+      "sha256": "3d0f81a4066758a5d021847f1e261bce9922c2874ab8191e8d5a6d9c31069e27",
+      "source": "imagenet3lf_ckpt.zip::imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_subord24_violated/tree_seed3_log.json"
+    },
+    {
+      "path": "experiments/recovered/FedGrain_CIFAR100.ipynb",
+      "sha256": "7911e5f518628f75864021a0781fdf578e37f92443f83b6e9577c5cd832b1025",
+      "source": "user attachment"
+    },
+    {
+      "path": "experiments/recovered/FedGrain_CIFAR100_seed_paired.ipynb",
+      "sha256": "51b01a18fcc06225ca0db73c66f9dd48f391f1ff5cc9792ed682be868a047911",
+      "source": "user attachment"
+    },
+    {
+      "path": "experiments/recovered/FedGrain_ImageNet3LF.ipynb",
+      "sha256": "4b7d701e942678e132233347c7dfb3dee85ad7192b1754b53769c6b46338d76f",
+      "source": "user attachment"
+    },
+    {
+      "path": "experiments/recovered/FedGrain_ImageNet3LF_audited_violation.ipynb",
+      "sha256": "52675c8af281a7409ac5ccc13bc8358c1e59c0b6fe396559ea5c009f3098f6c7",
+      "source": "user attachment"
+    },
+    {
+      "path": "experiments/recovered/FedGrain_iNat_Aves.ipynb",
+      "sha256": "a60b99138832e05fb856816e76b4757e73fc3137d4cf5298d2a8030c354d1a33",
+      "source": "user attachment"
+    },
+    {
+      "path": "experiments/recovered/extract_dino_features.py",
+      "sha256": "053e71722800528330d46ca41bf2650c2b8c25ad6a0f5536e5d4eaeda1ea1c8a",
+      "source": "user attachment"
+    },
+    {
+      "path": "experiments/recovered/train_imagenet3lf.py",
+      "sha256": "b9fde02978fcf8b295b1b3bba06427e5056dd77e549c373953ae4c2375fae621",
+      "source": "user attachment"
+    }
+  ],
+  "transfer_notes": [
+    "fedgrain_inat_aves.zip: local copy truncated; only complete CRC-validated JSON entries recovered",
+    "imagenet3lf_ckpt.zip: local copy truncated; only complete CRC-validated JSON entries recovered"
+  ]
+}

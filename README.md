@@ -9,7 +9,7 @@ ResolvFL addresses fine-grained recognition when federated clients annotate exam
 3. **empirical coverage auditing**, which identifies the internal decisions represented by the observed federation;
 4. **node-specific federated aggregation**, using the clients that supervise each decision.
 
-The repository contains the core implementation, protocol configurations, metric definitions, accepted manuscript results, and scripts that regenerate tables and figures from that registry. Dataset-specific training entry points and original execution outputs are still pending; this release does not reproduce the training runs end to end.
+The repository contains the core implementation, protocol configurations, metric definitions, accepted manuscript results, and scripts that regenerate tables and figures from that registry. Recovered Colab training sources and saved JSON run outputs are now included. See [the recovered-experiment guide](docs/RECOVERED_EXPERIMENTS.md) for source selection, verified numerical matches and remaining dependencies. End-to-end execution equivalence is not yet certified.
 
 ## Quick start
 
@@ -140,7 +140,7 @@ figures/             regenerated manuscript figures
 
 ## Name migration
 
-The method and Python package are now **ResolvFL** and `resolvfl`. Update imports to `resolvfl` and use `resolvfl_endpoint_average`. The current GitHub address retains the previous repository name until the repository itself is renamed. Historical result values are unchanged.
+The method and Python package are now **ResolvFL** and `resolvfl`. Update imports to `resolvfl` and use `resolvfl_endpoint_average`. The repository is now `bigpacopujol/ResolvFL`. Original recovered experiment files retain historical names to preserve checkpoint references. Historical result values are unchanged.
 
 ## Citation
 

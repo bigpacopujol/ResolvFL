@@ -1,0 +1,107 @@
+{
+  "1": {
+    "certificate": {
+      "changed_resolved_subord_nodes": [
+        24
+      ],
+      "changed_samples": 3343,
+      "target_supervision_resolvable": 3343,
+      "target_supervision_violated": 0
+    },
+    "resolvable": {
+      "global_leaf_acc": 1.3427734375,
+      "n_outside_val": 3996,
+      "n_target_val": 100,
+      "outside_leaf_acc": 1.3763763763763763,
+      "target_leaf_acc": 0.0,
+      "target_prefix_basic_acc": 0.0,
+      "target_prefix_subord_acc": 0.0
+    },
+    "violated": {
+      "global_leaf_acc": 1.3427734375,
+      "n_outside_val": 3996,
+      "n_target_val": 100,
+      "outside_leaf_acc": 1.3763763763763763,
+      "target_leaf_acc": 0.0,
+      "target_prefix_basic_acc": 0.0,
+      "target_prefix_subord_acc": 0.0
+    },
+    "violated_minus_resolvable": {
+      "global_leaf_acc": 0.0,
+      "outside_leaf_acc": 0.0,
+      "target_leaf_acc": 0.0,
+      "target_prefix_basic_acc": 0.0,
+      "target_prefix_subord_acc": 0.0
+    }
+  },
+  "2": {
+    "certificate": {
+      "changed_resolved_subord_nodes": [
+        24
+      ],
+      "changed_samples": 1741,
+      "target_supervision_resolvable": 1741,
+      "target_supervision_violated": 0
+    },
+    "resolvable": {
+      "global_leaf_acc": 0.0,
+      "n_outside_val": 3996,
+      "n_target_val": 100,
+      "outside_leaf_acc": 0.0,
+      "target_leaf_acc": 0.0,
+      "target_prefix_basic_acc": 0.0,
+      "target_prefix_subord_acc": 0.0
+    },
+    "violated": {
+      "global_leaf_acc": 0.0,
+      "n_outside_val": 3996,
+      "n_target_val": 100,
+      "outside_leaf_acc": 0.0,
+      "target_leaf_acc": 0.0,
+      "target_prefix_basic_acc": 0.0,
+      "target_prefix_subord_acc": 0.0
+    },
+    "violated_minus_resolvable": {
+      "global_leaf_acc": 0.0,
+      "outside_leaf_acc": 0.0,
+      "target_leaf_acc": 0.0,
+      "target_prefix_basic_acc": 0.0,
+      "target_prefix_subord_acc": 0.0
+    }
+  },
+  "3": {
+    "certificate": {
+      "changed_resolved_subord_nodes": [
+        24
+      ],
+      "changed_samples": 3290,
+      "target_supervision_resolvable": 3290,
+      "target_supervision_violated": 0
+    },
+    "resolvable": {
+      "global_leaf_acc": 1.3671875,
+      "n_outside_val": 3996,
+      "n_target_val": 100,
+      "outside_leaf_acc": 1.4014014014014013,
+      "target_leaf_acc": 0.0,
+      "target_prefix_basic_acc": 0.0,
+      "target_prefix_subord_acc": 0.0
+    },
+    "violated": {
+      "global_leaf_acc": 1.3671875,
+      "n_outside_val": 3996,
+      "n_target_val": 100,
+      "outside_leaf_acc": 1.4014014014014013,
+      "target_leaf_acc": 0.0,
+      "target_prefix_basic_acc": 0.0,
+      "target_prefix_subord_acc": 0.0
+    },
+    "violated_minus_resolvable": {
+      "global_leaf_acc": 0.0,
+      "outside_leaf_acc": 0.0,
+      "target_leaf_acc": 0.0,
+      "target_prefix_basic_acc": 0.0,
+      "target_prefix_subord_acc": 0.0
+    }
+  }
+}

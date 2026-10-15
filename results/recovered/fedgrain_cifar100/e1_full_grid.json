@@ -1,0 +1,74 @@
+{
+  "vehicles_1_seed1": {
+    "violated_resolvable": 0.42,
+    "violated_violated": 0.048,
+    "other_resolvable": 0.32873684210526316,
+    "other_violated": 0.3308421052631579,
+    "superclass_acc_resolvable": 0.62,
+    "superclass_acc_violated": 0.424
+  },
+  "vehicles_1_seed2": {
+    "violated_resolvable": 0.386,
+    "violated_violated": 0.096,
+    "other_resolvable": 0.33094736842105266,
+    "other_violated": 0.3331578947368421,
+    "superclass_acc_resolvable": 0.586,
+    "superclass_acc_violated": 0.448
+  },
+  "vehicles_1_seed3": {
+    "violated_resolvable": 0.408,
+    "violated_violated": 0.106,
+    "other_resolvable": 0.33242105263157895,
+    "other_violated": 0.33189473684210524,
+    "superclass_acc_resolvable": 0.626,
+    "superclass_acc_violated": 0.472
+  },
+  "small_mammals_seed1": {
+    "violated_resolvable": 0.21,
+    "violated_violated": 0.03,
+    "other_resolvable": 0.33978947368421053,
+    "other_violated": 0.3369473684210526,
+    "superclass_acc_resolvable": 0.398,
+    "superclass_acc_violated": 0.154
+  },
+  "small_mammals_seed2": {
+    "violated_resolvable": 0.208,
+    "violated_violated": 0.03,
+    "other_resolvable": 0.34031578947368424,
+    "other_violated": 0.3433684210526316,
+    "superclass_acc_resolvable": 0.368,
+    "superclass_acc_violated": 0.216
+  },
+  "small_mammals_seed3": {
+    "violated_resolvable": 0.152,
+    "violated_violated": 0.02,
+    "other_resolvable": 0.34589473684210525,
+    "other_violated": 0.3431578947368421,
+    "superclass_acc_resolvable": 0.316,
+    "superclass_acc_violated": 0.128
+  },
+  "flowers_seed1": {
+    "violated_resolvable": 0.43,
+    "violated_violated": 0.12,
+    "other_resolvable": 0.32821052631578945,
+    "other_violated": 0.3297894736842105,
+    "superclass_acc_resolvable": 0.78,
+    "superclass_acc_violated": 0.668
+  },
+  "flowers_seed2": {
+    "violated_resolvable": 0.372,
+    "violated_violated": 0.134,
+    "other_resolvable": 0.3316842105263158,
+    "other_violated": 0.33231578947368423,
+    "superclass_acc_resolvable": 0.774,
+    "superclass_acc_violated": 0.72
+  },
+  "flowers_seed3": {
+    "violated_resolvable": 0.416,
+    "violated_violated": 0.172,
+    "other_resolvable": 0.332,
+    "other_violated": 0.33042105263157895,
+    "superclass_acc_resolvable": 0.782,
+    "superclass_acc_violated": 0.69
+  }
+}

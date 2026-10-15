@@ -1,0 +1,145 @@
+{
+  "experiment_version": "v3_exact_pathloss_violation",
+  "metrics": {
+    "global_leaf_acc": {
+      "delta_mean": 0.0,
+      "delta_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_std": 0.0,
+      "resolvable_mean": 0.9033203125,
+      "resolvable_per_seed": [
+        1.3427734375,
+        0.0,
+        1.3671875
+      ],
+      "resolvable_std": 0.7823935722149445,
+      "violated_mean": 0.9033203125,
+      "violated_per_seed": [
+        1.3427734375,
+        0.0,
+        1.3671875
+      ],
+      "violated_std": 0.7823935722149445
+    },
+    "outside_leaf_acc": {
+      "delta_mean": 0.0,
+      "delta_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_std": 0.0,
+      "resolvable_mean": 0.9259259259259259,
+      "resolvable_per_seed": [
+        1.3763763763763763,
+        0.0,
+        1.4014014014014013
+      ],
+      "resolvable_std": 0.8019729909390423,
+      "violated_mean": 0.9259259259259259,
+      "violated_per_seed": [
+        1.3763763763763763,
+        0.0,
+        1.4014014014014013
+      ],
+      "violated_std": 0.8019729909390423
+    },
+    "target_leaf_acc": {
+      "delta_mean": 0.0,
+      "delta_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_std": 0.0,
+      "resolvable_mean": 0.0,
+      "resolvable_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "resolvable_std": 0.0,
+      "violated_mean": 0.0,
+      "violated_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "violated_std": 0.0
+    },
+    "target_prefix_basic_acc": {
+      "delta_mean": 0.0,
+      "delta_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_std": 0.0,
+      "resolvable_mean": 0.0,
+      "resolvable_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "resolvable_std": 0.0,
+      "violated_mean": 0.0,
+      "violated_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "violated_std": 0.0
+    },
+    "target_prefix_subord_acc": {
+      "delta_mean": 0.0,
+      "delta_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_std": 0.0,
+      "resolvable_mean": 0.0,
+      "resolvable_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "resolvable_std": 0.0,
+      "violated_mean": 0.0,
+      "violated_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "violated_std": 0.0
+    }
+  },
+  "n_seeds": 3,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "selection_rule": "n_leaves=5; soporte train m\u00e1s pr\u00f3ximo a la mediana",
+  "target": {
+    "basic_local": 2,
+    "basic_raw": 2,
+    "leaf_local_ids": [
+      153,
+      154,
+      155,
+      156,
+      157
+    ],
+    "min_train_per_leaf": 1300,
+    "min_val_per_leaf": 50,
+    "n_leaves": 5,
+    "subord_local": 24,
+    "subord_raw": 24,
+    "train_samples": 6500,
+    "val_samples": 250
+  }
+}

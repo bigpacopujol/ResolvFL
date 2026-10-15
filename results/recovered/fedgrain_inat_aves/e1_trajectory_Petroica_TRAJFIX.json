@@ -1,0 +1,72 @@
+[
+  {
+    "round": 15,
+    "leaf_acc_overall": 0.06271870794078062,
+    "violated_leaves_acc": 0.0,
+    "other_leaves_acc": 0.06292195517148258,
+    "genus_marginal_acc": 0.0
+  },
+  {
+    "round": 30,
+    "leaf_acc_overall": 0.11924629878869449,
+    "violated_leaves_acc": 0.08333333333333333,
+    "other_leaves_acc": 0.11936267890899271,
+    "genus_marginal_acc": 0.25
+  },
+  {
+    "round": 45,
+    "leaf_acc_overall": 0.16716016150740243,
+    "violated_leaves_acc": 0.16666666666666666,
+    "other_leaves_acc": 0.16716176073453956,
+    "genus_marginal_acc": 0.375
+  },
+  {
+    "round": 60,
+    "leaf_acc_overall": 0.20578734858681022,
+    "violated_leaves_acc": 0.08333333333333333,
+    "other_leaves_acc": 0.20618417499324873,
+    "genus_marginal_acc": 0.4166666666666667
+  },
+  {
+    "round": 75,
+    "leaf_acc_overall": 0.2386271870794078,
+    "violated_leaves_acc": 0.08333333333333333,
+    "other_leaves_acc": 0.2391304347826087,
+    "genus_marginal_acc": 0.5833333333333334
+  },
+  {
+    "round": 90,
+    "leaf_acc_overall": 0.26433378196500673,
+    "violated_leaves_acc": 0.041666666666666664,
+    "other_leaves_acc": 0.26505536051849854,
+    "genus_marginal_acc": 0.625
+  },
+  {
+    "round": 105,
+    "leaf_acc_overall": 0.2939434724091521,
+    "violated_leaves_acc": 0.041666666666666664,
+    "other_leaves_acc": 0.2947610045908723,
+    "genus_marginal_acc": 0.625
+  },
+  {
+    "round": 120,
+    "leaf_acc_overall": 0.3177658142664872,
+    "violated_leaves_acc": 0.041666666666666664,
+    "other_leaves_acc": 0.3186605455036457,
+    "genus_marginal_acc": 0.6666666666666666
+  },
+  {
+    "round": 135,
+    "leaf_acc_overall": 0.3370121130551817,
+    "violated_leaves_acc": 0.041666666666666664,
+    "other_leaves_acc": 0.33796921415068865,
+    "genus_marginal_acc": 0.6666666666666666
+  },
+  {
+    "round": 150,
+    "leaf_acc_overall": 0.36110363391655453,
+    "violated_leaves_acc": 0.041666666666666664,
+    "other_leaves_acc": 0.3621388063732109,
+    "genus_marginal_acc": 0.6666666666666666
+  }
+]
