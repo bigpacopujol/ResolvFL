@@ -1,5 +1,5 @@
-from fedgrain.taxonomy import Taxonomy
-from fedgrain.metrics import (
+from resolvfl.taxonomy import Taxonomy
+from resolvfl.metrics import (
     METRIC_REGISTRY, tree_leaf_posterior, flat_leaf_posterior,
     marginal_prefix_prediction, conditional_head_prediction,
     raw_internal_node_prediction,
@@ -34,3 +34,4 @@ def test_flat_leaf_renormalization_and_internal_diag():
     leaf = flat_leaf_posterior(flat, t)
     assert abs(sum(leaf.values()) - 1.0) < 1e-12
     assert raw_internal_node_prediction(flat, t) is True
+

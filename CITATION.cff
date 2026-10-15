@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "FedGrain: Identifiable Fine-Grained Recognition from Federated Mixed-Granularity Supervision"
+title: "ResolvFL: Identifiable Fine-Grained Recognition from Federated Mixed-Granularity Supervision"
 message: "If you use this software, please cite the associated article."
 type: software
 authors:
@@ -11,6 +11,7 @@ authors:
     given-names: Mar
   - family-names: Mora
     given-names: Higinio
-version: 0.2.0-rc2
-date-released: 2026-09-16
-repository-code: "https://github.com/bigpacopujol/FedGrain"
+version: 0.2.0-rc4
+date-released: 2026-10-15
+repository-code: "https://github.com/bigpacopujol/ResolvFL"
+

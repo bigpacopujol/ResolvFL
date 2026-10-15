@@ -13,7 +13,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -29,13 +30,14 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
     "experiment": "main_comparison",
     "condition": "default",
-    "method_or_endpoint": "FedGrain",
+    "method_or_endpoint": "ResolvFL",
     "metric": "leaf_accuracy",
     "scope": "all leaves",
     "mean": 38.08,
@@ -45,7 +47,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "iNat-Aves",
@@ -61,7 +64,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "iNat-Aves",
@@ -77,13 +81,14 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "iNat-Aves",
     "experiment": "main_comparison",
     "condition": "default",
-    "method_or_endpoint": "FedGrain",
+    "method_or_endpoint": "ResolvFL",
     "metric": "leaf_accuracy",
     "scope": "all leaves",
     "mean": 40.45,
@@ -93,7 +98,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -109,7 +115,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -125,13 +132,14 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
     "experiment": "main_comparison",
     "condition": "default",
-    "method_or_endpoint": "FedGrain",
+    "method_or_endpoint": "ResolvFL",
     "metric": "leaf_accuracy",
     "scope": "all leaves",
     "mean": 59.38,
@@ -141,7 +149,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -157,7 +166,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "iNat-Aves",
@@ -173,7 +183,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -189,7 +200,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -205,13 +217,14 @@
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
     "experiment": "paired_difference",
     "condition": "default",
-    "method_or_endpoint": "FedGrain-Tree",
+    "method_or_endpoint": "ResolvFL-Tree",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": 0.22,
@@ -221,39 +234,8 @@
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
-  },
-  {
-    "dataset": "iNat-Aves",
-    "experiment": "paired_difference",
-    "condition": "default",
-    "method_or_endpoint": "Tree-Flat",
-    "metric": "leaf_accuracy_difference",
-    "scope": "all leaves",
-    "mean": 9.17,
-    "sd": 2.72,
-    "seed": null,
-    "value": null,
-    "unit": "percentage_points",
-    "provenance_level": "partial",
-    "manuscript_eligible": "true",
-    "notes": ""
-  },
-  {
-    "dataset": "iNat-Aves",
-    "experiment": "paired_difference",
-    "condition": "default",
-    "method_or_endpoint": "FedGrain-Tree",
-    "metric": "leaf_accuracy_difference",
-    "scope": "all leaves",
-    "mean": 2.23,
-    "sd": 3.96,
-    "seed": null,
-    "value": null,
-    "unit": "percentage_points",
-    "provenance_level": "partial",
-    "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -269,13 +251,14 @@
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
     "experiment": "paired_difference",
     "condition": "default",
-    "method_or_endpoint": "FedGrain-Tree",
+    "method_or_endpoint": "ResolvFL-Tree",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": -0.13,
@@ -285,7 +268,8 @@
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "iNat-Aves",
@@ -296,12 +280,13 @@
     "scope": "all leaves",
     "mean": null,
     "sd": null,
-    "seed": 1,
+    "seed": null,
     "value": 6.1,
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": "Run IDs not recovered; seed index is presentation order only."
+    "notes": "Run IDs not recovered; run_index is presentation order only, not a seed.",
+    "run_index": 1
   },
   {
     "dataset": "iNat-Aves",
@@ -312,12 +297,13 @@
     "scope": "all leaves",
     "mean": null,
     "sd": null,
-    "seed": 2,
+    "seed": null,
     "value": 11.3,
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": "Run IDs not recovered; seed index is presentation order only."
+    "notes": "Run IDs not recovered; run_index is presentation order only, not a seed.",
+    "run_index": 2
   },
   {
     "dataset": "iNat-Aves",
@@ -328,60 +314,64 @@
     "scope": "all leaves",
     "mean": null,
     "sd": null,
-    "seed": 3,
+    "seed": null,
     "value": 10.1,
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": "Run IDs not recovered; seed index is presentation order only."
+    "notes": "Run IDs not recovered; run_index is presentation order only, not a seed.",
+    "run_index": 3
   },
   {
     "dataset": "iNat-Aves",
     "experiment": "paired_difference",
     "condition": "default",
-    "method_or_endpoint": "FedGrain-Tree",
+    "method_or_endpoint": "ResolvFL-Tree",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": null,
     "sd": null,
-    "seed": 1,
+    "seed": null,
     "value": 6.8,
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": "Run IDs not recovered; seed index is presentation order only."
+    "notes": "Run IDs not recovered; run_index is presentation order only, not a seed.",
+    "run_index": 1
   },
   {
     "dataset": "iNat-Aves",
     "experiment": "paired_difference",
     "condition": "default",
-    "method_or_endpoint": "FedGrain-Tree",
+    "method_or_endpoint": "ResolvFL-Tree",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": null,
     "sd": null,
-    "seed": 2,
+    "seed": null,
     "value": 0.2,
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": "Run IDs not recovered; seed index is presentation order only."
+    "notes": "Run IDs not recovered; run_index is presentation order only, not a seed.",
+    "run_index": 2
   },
   {
     "dataset": "iNat-Aves",
     "experiment": "paired_difference",
     "condition": "default",
-    "method_or_endpoint": "FedGrain-Tree",
+    "method_or_endpoint": "ResolvFL-Tree",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": null,
     "sd": null,
-    "seed": 3,
+    "seed": null,
     "value": -0.3,
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": "Run IDs not recovered; seed index is presentation order only."
+    "notes": "Run IDs not recovered; run_index is presentation order only, not a seed.",
+    "run_index": 3
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -397,7 +387,8 @@
     "unit": "percentage_points",
     "provenance_level": "complete",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -413,7 +404,8 @@
     "unit": "percentage_points",
     "provenance_level": "complete",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -429,13 +421,14 @@
     "unit": "percentage_points",
     "provenance_level": "complete",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
     "experiment": "paired_difference",
     "condition": "default",
-    "method_or_endpoint": "FedGrain-Tree",
+    "method_or_endpoint": "ResolvFL-Tree",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": null,
@@ -445,13 +438,14 @@
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
     "experiment": "paired_difference",
     "condition": "default",
-    "method_or_endpoint": "FedGrain-Tree",
+    "method_or_endpoint": "ResolvFL-Tree",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": null,
@@ -461,13 +455,14 @@
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
     "experiment": "paired_difference",
     "condition": "default",
-    "method_or_endpoint": "FedGrain-Tree",
+    "method_or_endpoint": "ResolvFL-Tree",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": null,
@@ -477,7 +472,8 @@
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -493,7 +489,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -509,7 +506,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -525,7 +523,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -541,7 +540,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -557,7 +557,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -573,7 +574,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -589,7 +591,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -605,7 +608,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -621,7 +625,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -637,7 +642,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -653,7 +659,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -669,7 +676,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -685,7 +693,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -701,7 +710,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -717,7 +727,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -733,7 +744,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -749,7 +761,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -765,7 +778,8 @@
     "unit": "percent",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "iNat-Aves",
@@ -781,7 +795,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "iNat-Aves",
@@ -797,7 +812,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "iNat-Aves",
@@ -813,7 +829,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "iNat-Aves",
@@ -829,7 +846,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "iNat-Aves",
@@ -845,7 +863,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "iNat-Aves",
@@ -861,39 +880,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
-  },
-  {
-    "dataset": "iNat-Aves",
-    "experiment": "coverage_removal",
-    "condition": "Petroica",
-    "method_or_endpoint": "Coverage removed - Reference",
-    "metric": "leaf_accuracy_difference",
-    "scope": "target species",
-    "mean": -41.67,
-    "sd": 12.5,
-    "seed": null,
-    "value": null,
-    "unit": "percentage_points",
-    "provenance_level": "partial",
-    "manuscript_eligible": "true",
-    "notes": ""
-  },
-  {
-    "dataset": "iNat-Aves",
-    "experiment": "coverage_removal",
-    "condition": "Petroica",
-    "method_or_endpoint": "Coverage removed - Reference",
-    "metric": "leaf_accuracy_difference",
-    "scope": "other 1,481 species",
-    "mean": 0.09,
-    "sd": 0.11,
-    "seed": null,
-    "value": null,
-    "unit": "percentage_points",
-    "provenance_level": "partial",
-    "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "iNat-Aves",
@@ -909,7 +897,8 @@
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -925,7 +914,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -941,7 +931,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -957,7 +948,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -973,7 +965,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -989,7 +982,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -1005,7 +999,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -1021,7 +1016,8 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "ImageNet-3L/F",
@@ -1037,13 +1033,14 @@
     "unit": "percent",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
     "experiment": "cohort_overlap_sweep",
     "condition": "overlap=1.00",
-    "method_or_endpoint": "FedGrain-Tree",
+    "method_or_endpoint": "ResolvFL-Tree",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": -0.07,
@@ -1053,13 +1050,14 @@
     "unit": "percentage_points",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
     "experiment": "cohort_overlap_sweep",
     "condition": "overlap=0.80",
-    "method_or_endpoint": "FedGrain-Tree",
+    "method_or_endpoint": "ResolvFL-Tree",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": 0.34,
@@ -1069,13 +1067,14 @@
     "unit": "percentage_points",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
     "experiment": "cohort_overlap_sweep",
     "condition": "overlap=0.50",
-    "method_or_endpoint": "FedGrain-Tree",
+    "method_or_endpoint": "ResolvFL-Tree",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": 0.57,
@@ -1085,13 +1084,14 @@
     "unit": "percentage_points",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
     "experiment": "cohort_overlap_sweep",
     "condition": "overlap=0.20",
-    "method_or_endpoint": "FedGrain-Tree",
+    "method_or_endpoint": "ResolvFL-Tree",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": 0.62,
@@ -1101,13 +1101,14 @@
     "unit": "percentage_points",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
     "experiment": "cohort_overlap_sweep",
     "condition": "overlap=0.10",
-    "method_or_endpoint": "FedGrain-Tree",
+    "method_or_endpoint": "ResolvFL-Tree",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": 0.87,
@@ -1117,13 +1118,14 @@
     "unit": "percentage_points",
     "provenance_level": "aggregate_only",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
     "experiment": "server_mass_ablation",
     "condition": "default",
-    "method_or_endpoint": "FedGrain weighting",
+    "method_or_endpoint": "ResolvFL weighting",
     "metric": "leaf_accuracy",
     "scope": "all leaves",
     "mean": null,
@@ -1133,7 +1135,8 @@
     "unit": "percent",
     "provenance_level": "complete",
     "manuscript_eligible": "true",
-    "notes": "partition_seed=10001; training_seed=20001"
+    "notes": "partition_seed=10001; training_seed=20001",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -1149,13 +1152,14 @@
     "unit": "percent",
     "provenance_level": "complete",
     "manuscript_eligible": "true",
-    "notes": "partition_seed=10001; training_seed=20001"
+    "notes": "partition_seed=10001; training_seed=20001",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
     "experiment": "server_mass_ablation",
     "condition": "default",
-    "method_or_endpoint": "FedGrain weighting - Active cohort only",
+    "method_or_endpoint": "ResolvFL weighting - Active cohort only",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": null,
@@ -1165,13 +1169,14 @@
     "unit": "percentage_points",
     "provenance_level": "complete",
     "manuscript_eligible": "true",
-    "notes": "partition_seed=10001; training_seed=20001"
+    "notes": "partition_seed=10001; training_seed=20001",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
     "experiment": "server_mass_ablation",
     "condition": "default",
-    "method_or_endpoint": "FedGrain weighting",
+    "method_or_endpoint": "ResolvFL weighting",
     "metric": "leaf_accuracy",
     "scope": "all leaves",
     "mean": null,
@@ -1181,7 +1186,8 @@
     "unit": "percent",
     "provenance_level": "complete",
     "manuscript_eligible": "true",
-    "notes": "partition_seed=10002; training_seed=20002"
+    "notes": "partition_seed=10002; training_seed=20002",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -1197,13 +1203,14 @@
     "unit": "percent",
     "provenance_level": "complete",
     "manuscript_eligible": "true",
-    "notes": "partition_seed=10002; training_seed=20002"
+    "notes": "partition_seed=10002; training_seed=20002",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
     "experiment": "server_mass_ablation",
     "condition": "default",
-    "method_or_endpoint": "FedGrain weighting - Active cohort only",
+    "method_or_endpoint": "ResolvFL weighting - Active cohort only",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": null,
@@ -1213,13 +1220,14 @@
     "unit": "percentage_points",
     "provenance_level": "complete",
     "manuscript_eligible": "true",
-    "notes": "partition_seed=10002; training_seed=20002"
+    "notes": "partition_seed=10002; training_seed=20002",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
     "experiment": "server_mass_ablation",
     "condition": "default",
-    "method_or_endpoint": "FedGrain weighting",
+    "method_or_endpoint": "ResolvFL weighting",
     "metric": "leaf_accuracy",
     "scope": "all leaves",
     "mean": null,
@@ -1229,7 +1237,8 @@
     "unit": "percent",
     "provenance_level": "complete",
     "manuscript_eligible": "true",
-    "notes": "partition_seed=10003; training_seed=20003"
+    "notes": "partition_seed=10003; training_seed=20003",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
@@ -1245,13 +1254,14 @@
     "unit": "percent",
     "provenance_level": "complete",
     "manuscript_eligible": "true",
-    "notes": "partition_seed=10003; training_seed=20003"
+    "notes": "partition_seed=10003; training_seed=20003",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
     "experiment": "server_mass_ablation",
     "condition": "default",
-    "method_or_endpoint": "FedGrain weighting - Active cohort only",
+    "method_or_endpoint": "ResolvFL weighting - Active cohort only",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": null,
@@ -1261,13 +1271,14 @@
     "unit": "percentage_points",
     "provenance_level": "complete",
     "manuscript_eligible": "true",
-    "notes": "partition_seed=10003; training_seed=20003"
+    "notes": "partition_seed=10003; training_seed=20003",
+    "run_index": null
   },
   {
     "dataset": "CIFAR-100",
     "experiment": "server_mass_ablation",
     "condition": "default",
-    "method_or_endpoint": "FedGrain weighting - Active cohort only",
+    "method_or_endpoint": "ResolvFL weighting - Active cohort only",
     "metric": "leaf_accuracy_difference",
     "scope": "all leaves",
     "mean": 0.36,
@@ -1277,6 +1288,7 @@
     "unit": "percentage_points",
     "provenance_level": "complete",
     "manuscript_eligible": "true",
-    "notes": ""
+    "notes": "",
+    "run_index": null
   }
 ]

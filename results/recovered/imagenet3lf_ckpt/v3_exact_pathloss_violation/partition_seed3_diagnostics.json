@@ -1,0 +1,29 @@
+{
+  "client_sizes": [
+    61881,
+    63144,
+    59133,
+    65005,
+    68242,
+    59927,
+    70771,
+    65967,
+    64471,
+    67299
+  ],
+  "clients_with_complete_fine_coverage": [],
+  "depth_fraction": {
+    "1": 0.19658584169453736,
+    "2": 0.3150455221107395,
+    "3": 0.48836863619472315
+  },
+  "depth_hash": "dd340ea07b0a2098afc13d62179778ef01fc22e9374b1b722f1fb06a89003376",
+  "n_unresolved_basic": 0,
+  "n_unresolved_subord": 0,
+  "partition_hash": "1f440c3bdecaaffdd6407e46f934d58ea5ea641de8c11168e0809705f6f9dc34",
+  "partition_seed": 3,
+  "seed": 3,
+  "subord_cohort_size_max": 10,
+  "subord_cohort_size_mean": 9.921259842519685,
+  "subord_cohort_size_min": 7
+}

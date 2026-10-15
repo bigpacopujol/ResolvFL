@@ -78,3 +78,4 @@ class Taxonomy:
         if i + 1 >= len(path):
             raise ValueError("ancestor and descendant must be distinct")
         return path[i + 1]
+

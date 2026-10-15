@@ -1,0 +1,216 @@
+{
+  "fedgrain_leaf_acc": 0.3333,
+  "flat_fedavg_leaf_acc": 0.3171,
+  "flat_fedavg_abstain_rate": 0.9993,
+  "fedavg_tree_leaf_acc": 0.3279,
+  "rounds": 150,
+  "num_clients": 10,
+  "alpha_cls": 0.5,
+  "alpha_dep": 0.5,
+  "fedgrain_extreme_leaf_acc": 0.3635,
+  "fedavg_tree_extreme_leaf_acc": 0.3624,
+  "trajectory_masked_30r": [
+    [
+      10,
+      0.0436
+    ],
+    [
+      20,
+      0.0957
+    ],
+    [
+      30,
+      0.1268
+    ]
+  ],
+  "trajectory_unmasked_30r": [
+    [
+      10,
+      0.0413
+    ],
+    [
+      20,
+      0.0895
+    ],
+    [
+      30,
+      0.1144
+    ]
+  ],
+  "trajectories_3seed": {
+    "masked": [
+      [
+        0.0442,
+        0.0958,
+        0.1262
+      ],
+      [
+        0.0502,
+        0.1047,
+        0.1317
+      ],
+      [
+        0.0448,
+        0.0927,
+        0.1258
+      ]
+    ],
+    "unmasked": [
+      [
+        0.0413,
+        0.0893,
+        0.1143
+      ],
+      [
+        0.0456,
+        0.0928,
+        0.1219
+      ],
+      [
+        0.0445,
+        0.0881,
+        0.1176
+      ]
+    ],
+    "rescaled": [
+      [
+        0.0438,
+        0.0913,
+        0.1183
+      ],
+      [
+        0.0469,
+        0.0953,
+        0.1251
+      ],
+      [
+        0.0443,
+        0.0894,
+        0.1229
+      ]
+    ]
+  },
+  "E1": {
+    "violated_node": "vehicles_1",
+    "violated_leaves_resolvable": 0.42,
+    "violated_leaves_violated": 0.048,
+    "other_leaves_resolvable": 0.32873684210526316,
+    "other_leaves_violated": 0.3308421052631579,
+    "superclass_acc_violated": 0.424
+  },
+  "E1_multiseed": {
+    "seed1": {
+      "violated_resolvable": 0.42,
+      "violated_violated": 0.098,
+      "other_resolvable": 0.32873684210526316,
+      "other_violated": 0.33410526315789474,
+      "superclass_acc": 0.46
+    },
+    "seed2": {
+      "violated_resolvable": 0.388,
+      "violated_violated": 0.096,
+      "other_resolvable": 0.33021052631578945,
+      "other_violated": 0.3336842105263158,
+      "superclass_acc": 0.448
+    },
+    "seed3": {
+      "violated_resolvable": 0.408,
+      "violated_violated": 0.098,
+      "other_resolvable": 0.332,
+      "other_violated": 0.3316842105263158,
+      "superclass_acc": 0.466
+    }
+  },
+  "multi_node_violation": {
+    "small_mammals": {
+      "node": "small_mammals",
+      "violated_resolvable": 0.21,
+      "violated_violated": 0.03,
+      "other_resolvable": 0.33978947368421053,
+      "other_violated": 0.3369473684210526,
+      "superclass_acc": 0.154
+    },
+    "flowers": {
+      "node": "flowers",
+      "violated_resolvable": 0.43,
+      "violated_violated": 0.12,
+      "other_resolvable": 0.32821052631578945,
+      "other_violated": 0.3297894736842105,
+      "superclass_acc": 0.668
+    }
+  },
+  "E1_full_grid": {
+    "vehicles_1_seed1": {
+      "violated_resolvable": 0.42,
+      "violated_violated": 0.048,
+      "other_resolvable": 0.32873684210526316,
+      "other_violated": 0.3308421052631579,
+      "superclass_acc_resolvable": 0.62,
+      "superclass_acc_violated": 0.424
+    },
+    "vehicles_1_seed2": {
+      "violated_resolvable": 0.386,
+      "violated_violated": 0.096,
+      "other_resolvable": 0.33094736842105266,
+      "other_violated": 0.3331578947368421,
+      "superclass_acc_resolvable": 0.586,
+      "superclass_acc_violated": 0.448
+    },
+    "vehicles_1_seed3": {
+      "violated_resolvable": 0.408,
+      "violated_violated": 0.106,
+      "other_resolvable": 0.33242105263157895,
+      "other_violated": 0.33189473684210524,
+      "superclass_acc_resolvable": 0.626,
+      "superclass_acc_violated": 0.472
+    },
+    "small_mammals_seed1": {
+      "violated_resolvable": 0.21,
+      "violated_violated": 0.03,
+      "other_resolvable": 0.33978947368421053,
+      "other_violated": 0.3369473684210526,
+      "superclass_acc_resolvable": 0.398,
+      "superclass_acc_violated": 0.154
+    },
+    "small_mammals_seed2": {
+      "violated_resolvable": 0.208,
+      "violated_violated": 0.03,
+      "other_resolvable": 0.34031578947368424,
+      "other_violated": 0.3433684210526316,
+      "superclass_acc_resolvable": 0.368,
+      "superclass_acc_violated": 0.216
+    },
+    "small_mammals_seed3": {
+      "violated_resolvable": 0.152,
+      "violated_violated": 0.02,
+      "other_resolvable": 0.34589473684210525,
+      "other_violated": 0.3431578947368421,
+      "superclass_acc_resolvable": 0.316,
+      "superclass_acc_violated": 0.128
+    },
+    "flowers_seed1": {
+      "violated_resolvable": 0.43,
+      "violated_violated": 0.12,
+      "other_resolvable": 0.32821052631578945,
+      "other_violated": 0.3297894736842105,
+      "superclass_acc_resolvable": 0.78,
+      "superclass_acc_violated": 0.668
+    },
+    "flowers_seed2": {
+      "violated_resolvable": 0.372,
+      "violated_violated": 0.134,
+      "other_resolvable": 0.3316842105263158,
+      "other_violated": 0.33231578947368423,
+      "superclass_acc_resolvable": 0.774,
+      "superclass_acc_violated": 0.72
+    },
+    "flowers_seed3": {
+      "violated_resolvable": 0.416,
+      "violated_violated": 0.172,
+      "other_resolvable": 0.332,
+      "other_violated": 0.33042105263157895,
+      "superclass_acc_resolvable": 0.782,
+      "superclass_acc_violated": 0.69
+    }
+  }
+}

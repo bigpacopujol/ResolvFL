@@ -29,3 +29,4 @@ def exact_path_nll(
         target = children.index(child)
         terms.append(F.cross_entropy(logits.unsqueeze(0), torch.tensor([target], device=logits.device)))
     return torch.stack(terms).sum()
+

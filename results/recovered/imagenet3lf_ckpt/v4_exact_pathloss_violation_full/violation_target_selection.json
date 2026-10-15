@@ -1,0 +1,2179 @@
+{
+  "all_candidates": [
+    {
+      "basic_local": 0,
+      "basic_raw": 0,
+      "leaf_local_ids": [
+        0,
+        1
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 0,
+      "subord_raw": 0,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 0,
+      "basic_raw": 0,
+      "leaf_local_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "min_train_per_leaf": 732,
+      "min_val_per_leaf": 50,
+      "n_leaves": 19,
+      "subord_local": 1,
+      "subord_raw": 1,
+      "train_samples": 22575,
+      "val_samples": 950
+    },
+    {
+      "basic_local": 0,
+      "basic_raw": 0,
+      "leaf_local_ids": [
+        21,
+        22,
+        23
+      ],
+      "min_train_per_leaf": 954,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 2,
+      "subord_raw": 2,
+      "train_samples": 3554,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 0,
+      "basic_raw": 0,
+      "leaf_local_ids": [
+        24,
+        25
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 3,
+      "subord_raw": 3,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 0,
+      "basic_raw": 0,
+      "leaf_local_ids": [
+        26,
+        27,
+        28
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 4,
+      "subord_raw": 4,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 0,
+      "basic_raw": 0,
+      "leaf_local_ids": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "min_train_per_leaf": 1218,
+      "min_val_per_leaf": 50,
+      "n_leaves": 5,
+      "subord_local": 5,
+      "subord_raw": 5,
+      "train_samples": 6418,
+      "val_samples": 250
+    },
+    {
+      "basic_local": 0,
+      "basic_raw": 0,
+      "leaf_local_ids": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 6,
+      "subord_raw": 6,
+      "train_samples": 5200,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 0,
+      "basic_raw": 0,
+      "leaf_local_ids": [
+        38,
+        39,
+        40
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 7,
+      "subord_raw": 7,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 0,
+      "basic_raw": 0,
+      "leaf_local_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 12,
+      "subord_local": 8,
+      "subord_raw": 8,
+      "train_samples": 15600,
+      "val_samples": 600
+    },
+    {
+      "basic_local": 0,
+      "basic_raw": 0,
+      "leaf_local_ids": [
+        53,
+        54,
+        62,
+        63,
+        64,
+        65
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 6,
+      "subord_local": 9,
+      "subord_raw": 9,
+      "train_samples": 7800,
+      "val_samples": 300
+    },
+    {
+      "basic_local": 0,
+      "basic_raw": 0,
+      "leaf_local_ids": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "min_train_per_leaf": 969,
+      "min_val_per_leaf": 50,
+      "n_leaves": 7,
+      "subord_local": 10,
+      "subord_raw": 10,
+      "train_samples": 8769,
+      "val_samples": 350
+    },
+    {
+      "basic_local": 0,
+      "basic_raw": 0,
+      "leaf_local_ids": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        75,
+        76,
+        77,
+        78,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        88,
+        89,
+        90,
+        91
+      ],
+      "min_train_per_leaf": 936,
+      "min_val_per_leaf": 50,
+      "n_leaves": 23,
+      "subord_local": 11,
+      "subord_raw": 11,
+      "train_samples": 29000,
+      "val_samples": 1150
+    },
+    {
+      "basic_local": 0,
+      "basic_raw": 0,
+      "leaf_local_ids": [
+        74,
+        79,
+        87
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 12,
+      "subord_raw": 12,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 0,
+      "basic_raw": 0,
+      "leaf_local_ids": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "min_train_per_leaf": 772,
+      "min_val_per_leaf": 50,
+      "n_leaves": 8,
+      "subord_local": 13,
+      "subord_raw": 13,
+      "train_samples": 9432,
+      "val_samples": 400
+    },
+    {
+      "basic_local": 1,
+      "basic_raw": 1,
+      "leaf_local_ids": [
+        100,
+        101,
+        102,
+        103
+      ],
+      "min_train_per_leaf": 1141,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 14,
+      "subord_raw": 14,
+      "train_samples": 5041,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 1,
+      "basic_raw": 1,
+      "leaf_local_ids": [
+        104,
+        105,
+        106,
+        107
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 15,
+      "subord_raw": 15,
+      "train_samples": 5200,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 1,
+      "basic_raw": 1,
+      "leaf_local_ids": [
+        108,
+        109
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 16,
+      "subord_raw": 16,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 1,
+      "basic_raw": 1,
+      "leaf_local_ids": [
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 7,
+      "subord_local": 17,
+      "subord_raw": 17,
+      "train_samples": 9100,
+      "val_samples": 350
+    },
+    {
+      "basic_local": 1,
+      "basic_raw": 1,
+      "leaf_local_ids": [
+        117,
+        118,
+        119,
+        120
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 18,
+      "subord_raw": 18,
+      "train_samples": 5200,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 1,
+      "basic_raw": 1,
+      "leaf_local_ids": [
+        121
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 1,
+      "subord_local": 19,
+      "subord_raw": 19,
+      "train_samples": 1300,
+      "val_samples": 50
+    },
+    {
+      "basic_local": 1,
+      "basic_raw": 1,
+      "leaf_local_ids": [
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 10,
+      "subord_local": 20,
+      "subord_raw": 20,
+      "train_samples": 13000,
+      "val_samples": 500
+    },
+    {
+      "basic_local": 1,
+      "basic_raw": 1,
+      "leaf_local_ids": [
+        132,
+        133
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 21,
+      "subord_raw": 21,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 1,
+      "basic_raw": 1,
+      "leaf_local_ids": [
+        134,
+        135,
+        136
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 22,
+      "subord_raw": 22,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 1,
+      "basic_raw": 1,
+      "leaf_local_ids": [
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 16,
+      "subord_local": 23,
+      "subord_raw": 23,
+      "train_samples": 20800,
+      "val_samples": 800
+    },
+    {
+      "basic_local": 2,
+      "basic_raw": 2,
+      "leaf_local_ids": [
+        153,
+        154,
+        155,
+        156,
+        157
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 5,
+      "subord_local": 24,
+      "subord_raw": 24,
+      "train_samples": 6500,
+      "val_samples": 250
+    },
+    {
+      "basic_local": 2,
+      "basic_raw": 2,
+      "leaf_local_ids": [
+        158,
+        159
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 25,
+      "subord_raw": 25,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 2,
+      "basic_raw": 2,
+      "leaf_local_ids": [
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 13,
+      "subord_local": 26,
+      "subord_raw": 26,
+      "train_samples": 16900,
+      "val_samples": 650
+    },
+    {
+      "basic_local": 3,
+      "basic_raw": 3,
+      "leaf_local_ids": [
+        173,
+        176
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 27,
+      "subord_raw": 27,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 3,
+      "basic_raw": 3,
+      "leaf_local_ids": [
+        174,
+        175
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 28,
+      "subord_raw": 28,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 4,
+      "basic_raw": 4,
+      "leaf_local_ids": [
+        177,
+        178
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 29,
+      "subord_raw": 29,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 4,
+      "basic_raw": 4,
+      "leaf_local_ids": [
+        179,
+        180
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 30,
+      "subord_raw": 30,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 4,
+      "basic_raw": 4,
+      "leaf_local_ids": [
+        181,
+        182,
+        183
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 31,
+      "subord_raw": 31,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 4,
+      "basic_raw": 4,
+      "leaf_local_ids": [
+        184,
+        185,
+        186,
+        187
+      ],
+      "min_train_per_leaf": 1165,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 32,
+      "subord_raw": 32,
+      "train_samples": 5065,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 4,
+      "basic_raw": 4,
+      "leaf_local_ids": [
+        188,
+        189,
+        190,
+        191
+      ],
+      "min_train_per_leaf": 969,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 33,
+      "subord_raw": 33,
+      "train_samples": 4869,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 5,
+      "basic_raw": 5,
+      "leaf_local_ids": [
+        192,
+        193
+      ],
+      "min_train_per_leaf": 1071,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 34,
+      "subord_raw": 34,
+      "train_samples": 2371,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 5,
+      "basic_raw": 5,
+      "leaf_local_ids": [
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 9,
+      "subord_local": 35,
+      "subord_raw": 35,
+      "train_samples": 11700,
+      "val_samples": 450
+    },
+    {
+      "basic_local": 5,
+      "basic_raw": 5,
+      "leaf_local_ids": [
+        203,
+        204,
+        205
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 36,
+      "subord_raw": 36,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 5,
+      "basic_raw": 5,
+      "leaf_local_ids": [
+        206,
+        207,
+        208
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 37,
+      "subord_raw": 37,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 6,
+      "basic_raw": 6,
+      "leaf_local_ids": [
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 8,
+      "subord_local": 38,
+      "subord_raw": 38,
+      "train_samples": 10400,
+      "val_samples": 400
+    },
+    {
+      "basic_local": 6,
+      "basic_raw": 6,
+      "leaf_local_ids": [
+        217,
+        218,
+        219,
+        220,
+        221,
+        222
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 6,
+      "subord_local": 39,
+      "subord_raw": 39,
+      "train_samples": 7800,
+      "val_samples": 300
+    },
+    {
+      "basic_local": 6,
+      "basic_raw": 6,
+      "leaf_local_ids": [
+        223,
+        224
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 40,
+      "subord_raw": 40,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 6,
+      "basic_raw": 6,
+      "leaf_local_ids": [
+        225,
+        226
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 41,
+      "subord_raw": 41,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 6,
+      "basic_raw": 6,
+      "leaf_local_ids": [
+        227,
+        228
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 42,
+      "subord_raw": 42,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 6,
+      "basic_raw": 6,
+      "leaf_local_ids": [
+        229,
+        230
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 43,
+      "subord_raw": 43,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 6,
+      "basic_raw": 6,
+      "leaf_local_ids": [
+        231,
+        232
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 44,
+      "subord_raw": 44,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 7,
+      "basic_raw": 7,
+      "leaf_local_ids": [
+        233,
+        234,
+        500,
+        501,
+        502,
+        503,
+        504
+      ],
+      "min_train_per_leaf": 1209,
+      "min_val_per_leaf": 50,
+      "n_leaves": 7,
+      "subord_local": 45,
+      "subord_raw": 45,
+      "train_samples": 9009,
+      "val_samples": 350
+    },
+    {
+      "basic_local": 7,
+      "basic_raw": 7,
+      "leaf_local_ids": [
+        235,
+        236
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 46,
+      "subord_raw": 46,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 7,
+      "basic_raw": 7,
+      "leaf_local_ids": [
+        237,
+        238,
+        239
+      ],
+      "min_train_per_leaf": 1213,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 47,
+      "subord_raw": 47,
+      "train_samples": 3813,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 7,
+      "basic_raw": 7,
+      "leaf_local_ids": [
+        240
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 1,
+      "subord_local": 48,
+      "subord_raw": 48,
+      "train_samples": 1300,
+      "val_samples": 50
+    },
+    {
+      "basic_local": 7,
+      "basic_raw": 7,
+      "leaf_local_ids": [
+        241,
+        242,
+        249,
+        250
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 49,
+      "subord_raw": 49,
+      "train_samples": 5200,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 7,
+      "basic_raw": 7,
+      "leaf_local_ids": [
+        243,
+        245,
+        246
+      ],
+      "min_train_per_leaf": 1053,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 50,
+      "subord_raw": 50,
+      "train_samples": 3653,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 7,
+      "basic_raw": 7,
+      "leaf_local_ids": [
+        244,
+        247,
+        248
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 51,
+      "subord_raw": 51,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 7,
+      "basic_raw": 7,
+      "leaf_local_ids": [
+        251,
+        252
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 52,
+      "subord_raw": 52,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 7,
+      "basic_raw": 7,
+      "leaf_local_ids": [
+        253,
+        254,
+        255,
+        256
+      ],
+      "min_train_per_leaf": 1005,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 53,
+      "subord_raw": 53,
+      "train_samples": 4905,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 7,
+      "basic_raw": 7,
+      "leaf_local_ids": [
+        257,
+        258
+      ],
+      "min_train_per_leaf": 931,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 54,
+      "subord_raw": 54,
+      "train_samples": 2231,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 7,
+      "basic_raw": 7,
+      "leaf_local_ids": [
+        259,
+        260,
+        261
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 55,
+      "subord_raw": 55,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 7,
+      "basic_raw": 7,
+      "leaf_local_ids": [
+        262
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 1,
+      "subord_local": 56,
+      "subord_raw": 56,
+      "train_samples": 1300,
+      "val_samples": 50
+    },
+    {
+      "basic_local": 7,
+      "basic_raw": 7,
+      "leaf_local_ids": [
+        263
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 1,
+      "subord_local": 57,
+      "subord_raw": 57,
+      "train_samples": 1300,
+      "val_samples": 50
+    },
+    {
+      "basic_local": 8,
+      "basic_raw": 8,
+      "leaf_local_ids": [
+        264,
+        265,
+        266,
+        267
+      ],
+      "min_train_per_leaf": 1069,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 58,
+      "subord_raw": 58,
+      "train_samples": 4969,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 8,
+      "basic_raw": 8,
+      "leaf_local_ids": [
+        268,
+        269
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 59,
+      "subord_raw": 59,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 8,
+      "basic_raw": 8,
+      "leaf_local_ids": [
+        270,
+        271,
+        272,
+        273,
+        274
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 5,
+      "subord_local": 60,
+      "subord_raw": 60,
+      "train_samples": 6500,
+      "val_samples": 250
+    },
+    {
+      "basic_local": 8,
+      "basic_raw": 8,
+      "leaf_local_ids": [
+        275,
+        276,
+        277,
+        278,
+        279
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 5,
+      "subord_local": 61,
+      "subord_raw": 61,
+      "train_samples": 6500,
+      "val_samples": 250
+    },
+    {
+      "basic_local": 8,
+      "basic_raw": 8,
+      "leaf_local_ids": [
+        280,
+        281
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 62,
+      "subord_raw": 62,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 9,
+      "basic_raw": 9,
+      "leaf_local_ids": [
+        282,
+        368
+      ],
+      "min_train_per_leaf": 962,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 63,
+      "subord_raw": 63,
+      "train_samples": 2262,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 8,
+      "basic_raw": 8,
+      "leaf_local_ids": [
+        283,
+        284
+      ],
+      "min_train_per_leaf": 1055,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 64,
+      "subord_raw": 64,
+      "train_samples": 2355,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 8,
+      "basic_raw": 8,
+      "leaf_local_ids": [
+        285,
+        286
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 65,
+      "subord_raw": 65,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 8,
+      "basic_raw": 8,
+      "leaf_local_ids": [
+        287,
+        288
+      ],
+      "min_train_per_leaf": 1154,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 66,
+      "subord_raw": 66,
+      "train_samples": 2454,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 8,
+      "basic_raw": 8,
+      "leaf_local_ids": [
+        289,
+        290,
+        291,
+        292,
+        293,
+        294
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 6,
+      "subord_local": 67,
+      "subord_raw": 67,
+      "train_samples": 7800,
+      "val_samples": 300
+    },
+    {
+      "basic_local": 10,
+      "basic_raw": 10,
+      "leaf_local_ids": [
+        295
+      ],
+      "min_train_per_leaf": 1187,
+      "min_val_per_leaf": 50,
+      "n_leaves": 1,
+      "subord_local": 68,
+      "subord_raw": 68,
+      "train_samples": 1187,
+      "val_samples": 50
+    },
+    {
+      "basic_local": 10,
+      "basic_raw": 10,
+      "leaf_local_ids": [
+        296,
+        297
+      ],
+      "min_train_per_leaf": 1222,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 69,
+      "subord_raw": 69,
+      "train_samples": 2522,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 10,
+      "basic_raw": 10,
+      "leaf_local_ids": [
+        298,
+        299,
+        300
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 70,
+      "subord_raw": 70,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 11,
+      "basic_raw": 11,
+      "leaf_local_ids": [
+        301,
+        302,
+        303,
+        304
+      ],
+      "min_train_per_leaf": 891,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 71,
+      "subord_raw": 71,
+      "train_samples": 4244,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 11,
+      "basic_raw": 11,
+      "leaf_local_ids": [
+        305,
+        309
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 72,
+      "subord_raw": 72,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 11,
+      "basic_raw": 11,
+      "leaf_local_ids": [
+        306,
+        307,
+        308
+      ],
+      "min_train_per_leaf": 1254,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 73,
+      "subord_raw": 73,
+      "train_samples": 3854,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 11,
+      "basic_raw": 11,
+      "leaf_local_ids": [
+        310,
+        311
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 74,
+      "subord_raw": 74,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 11,
+      "basic_raw": 11,
+      "leaf_local_ids": [
+        312
+      ],
+      "min_train_per_leaf": 1194,
+      "min_val_per_leaf": 50,
+      "n_leaves": 1,
+      "subord_local": 75,
+      "subord_raw": 75,
+      "train_samples": 1194,
+      "val_samples": 50
+    },
+    {
+      "basic_local": 12,
+      "basic_raw": 12,
+      "leaf_local_ids": [
+        313,
+        314,
+        315,
+        316
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 76,
+      "subord_raw": 76,
+      "train_samples": 5200,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 12,
+      "basic_raw": 12,
+      "leaf_local_ids": [
+        317,
+        318
+      ],
+      "min_train_per_leaf": 1267,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 77,
+      "subord_raw": 77,
+      "train_samples": 2567,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 12,
+      "basic_raw": 12,
+      "leaf_local_ids": [
+        319
+      ],
+      "min_train_per_leaf": 1149,
+      "min_val_per_leaf": 50,
+      "n_leaves": 1,
+      "subord_local": 78,
+      "subord_raw": 78,
+      "train_samples": 1149,
+      "val_samples": 50
+    },
+    {
+      "basic_local": 12,
+      "basic_raw": 12,
+      "leaf_local_ids": [
+        320,
+        321,
+        322,
+        323
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 79,
+      "subord_raw": 79,
+      "train_samples": 5200,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 12,
+      "basic_raw": 12,
+      "leaf_local_ids": [
+        324,
+        325,
+        326
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 80,
+      "subord_raw": 80,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 13,
+      "basic_raw": 13,
+      "leaf_local_ids": [
+        327,
+        328,
+        329
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 81,
+      "subord_raw": 81,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 13,
+      "basic_raw": 13,
+      "leaf_local_ids": [
+        330,
+        331
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 82,
+      "subord_raw": 82,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 13,
+      "basic_raw": 13,
+      "leaf_local_ids": [
+        332
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 1,
+      "subord_local": 83,
+      "subord_raw": 83,
+      "train_samples": 1300,
+      "val_samples": 50
+    },
+    {
+      "basic_local": 13,
+      "basic_raw": 13,
+      "leaf_local_ids": [
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339
+      ],
+      "min_train_per_leaf": 976,
+      "min_val_per_leaf": 50,
+      "n_leaves": 7,
+      "subord_local": 84,
+      "subord_raw": 84,
+      "train_samples": 8776,
+      "val_samples": 350
+    },
+    {
+      "basic_local": 13,
+      "basic_raw": 13,
+      "leaf_local_ids": [
+        340,
+        341
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 85,
+      "subord_raw": 85,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 14,
+      "basic_raw": 14,
+      "leaf_local_ids": [
+        342,
+        343,
+        344,
+        345
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 86,
+      "subord_raw": 86,
+      "train_samples": 5200,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 14,
+      "basic_raw": 14,
+      "leaf_local_ids": [
+        346,
+        347,
+        348,
+        349,
+        350,
+        351
+      ],
+      "min_train_per_leaf": 1282,
+      "min_val_per_leaf": 50,
+      "n_leaves": 6,
+      "subord_local": 87,
+      "subord_raw": 87,
+      "train_samples": 7782,
+      "val_samples": 300
+    },
+    {
+      "basic_local": 14,
+      "basic_raw": 14,
+      "leaf_local_ids": [
+        352,
+        353,
+        354,
+        355,
+        356,
+        357
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 6,
+      "subord_local": 88,
+      "subord_raw": 88,
+      "train_samples": 7800,
+      "val_samples": 300
+    },
+    {
+      "basic_local": 14,
+      "basic_raw": 14,
+      "leaf_local_ids": [
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 10,
+      "subord_local": 89,
+      "subord_raw": 89,
+      "train_samples": 13000,
+      "val_samples": 500
+    },
+    {
+      "basic_local": 9,
+      "basic_raw": 9,
+      "leaf_local_ids": [
+        369,
+        370
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 90,
+      "subord_raw": 90,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 15,
+      "basic_raw": 15,
+      "leaf_local_ids": [
+        371,
+        372,
+        373,
+        374
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 91,
+      "subord_raw": 91,
+      "train_samples": 5200,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 16,
+      "basic_raw": 16,
+      "leaf_local_ids": [
+        375,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 11,
+      "subord_local": 92,
+      "subord_raw": 92,
+      "train_samples": 14300,
+      "val_samples": 550
+    },
+    {
+      "basic_local": 15,
+      "basic_raw": 15,
+      "leaf_local_ids": [
+        376,
+        377,
+        378
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 93,
+      "subord_raw": 93,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 15,
+      "basic_raw": 15,
+      "leaf_local_ids": [
+        379,
+        380
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 94,
+      "subord_raw": 94,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 17,
+      "basic_raw": 17,
+      "leaf_local_ids": [
+        381,
+        382,
+        383,
+        384
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 95,
+      "subord_raw": 95,
+      "train_samples": 5200,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 17,
+      "basic_raw": 17,
+      "leaf_local_ids": [
+        385,
+        386,
+        387
+      ],
+      "min_train_per_leaf": 1153,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 96,
+      "subord_raw": 96,
+      "train_samples": 3753,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 17,
+      "basic_raw": 17,
+      "leaf_local_ids": [
+        388,
+        389,
+        391
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 97,
+      "subord_raw": 97,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 17,
+      "basic_raw": 17,
+      "leaf_local_ids": [
+        390,
+        393,
+        412,
+        413,
+        414
+      ],
+      "min_train_per_leaf": 1155,
+      "min_val_per_leaf": 50,
+      "n_leaves": 5,
+      "subord_local": 98,
+      "subord_raw": 98,
+      "train_samples": 6355,
+      "val_samples": 250
+    },
+    {
+      "basic_local": 17,
+      "basic_raw": 17,
+      "leaf_local_ids": [
+        392,
+        395
+      ],
+      "min_train_per_leaf": 1270,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 99,
+      "subord_raw": 99,
+      "train_samples": 2570,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 17,
+      "basic_raw": 17,
+      "leaf_local_ids": [
+        394
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 1,
+      "subord_local": 100,
+      "subord_raw": 100,
+      "train_samples": 1300,
+      "val_samples": 50
+    },
+    {
+      "basic_local": 17,
+      "basic_raw": 17,
+      "leaf_local_ids": [
+        396,
+        415,
+        416,
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        427
+      ],
+      "min_train_per_leaf": 1250,
+      "min_val_per_leaf": 50,
+      "n_leaves": 11,
+      "subord_local": 101,
+      "subord_raw": 101,
+      "train_samples": 14250,
+      "val_samples": 550
+    },
+    {
+      "basic_local": 17,
+      "basic_raw": 17,
+      "leaf_local_ids": [
+        397,
+        398,
+        407,
+        408,
+        409
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 5,
+      "subord_local": 102,
+      "subord_raw": 102,
+      "train_samples": 6500,
+      "val_samples": 250
+    },
+    {
+      "basic_local": 17,
+      "basic_raw": 17,
+      "leaf_local_ids": [
+        399
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 1,
+      "subord_local": 103,
+      "subord_raw": 103,
+      "train_samples": 1300,
+      "val_samples": 50
+    },
+    {
+      "basic_local": 17,
+      "basic_raw": 17,
+      "leaf_local_ids": [
+        400,
+        401,
+        402,
+        403
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 104,
+      "subord_raw": 104,
+      "train_samples": 5200,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 17,
+      "basic_raw": 17,
+      "leaf_local_ids": [
+        404,
+        405,
+        406
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 105,
+      "subord_raw": 105,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 17,
+      "basic_raw": 17,
+      "leaf_local_ids": [
+        410,
+        411
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 106,
+      "subord_raw": 106,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 17,
+      "basic_raw": 17,
+      "leaf_local_ids": [
+        424,
+        425,
+        426
+      ],
+      "min_train_per_leaf": 1053,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 107,
+      "subord_raw": 107,
+      "train_samples": 3509,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 18,
+      "basic_raw": 18,
+      "leaf_local_ids": [
+        428,
+        429,
+        430,
+        431
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 108,
+      "subord_raw": 108,
+      "train_samples": 5200,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 18,
+      "basic_raw": 18,
+      "leaf_local_ids": [
+        432,
+        433,
+        434,
+        435,
+        436,
+        437
+      ],
+      "min_train_per_leaf": 1206,
+      "min_val_per_leaf": 50,
+      "n_leaves": 6,
+      "subord_local": 109,
+      "subord_raw": 109,
+      "train_samples": 7706,
+      "val_samples": 300
+    },
+    {
+      "basic_local": 18,
+      "basic_raw": 18,
+      "leaf_local_ids": [
+        438,
+        439,
+        440
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 110,
+      "subord_raw": 110,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 18,
+      "basic_raw": 18,
+      "leaf_local_ids": [
+        441,
+        442,
+        443,
+        444
+      ],
+      "min_train_per_leaf": 1118,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 111,
+      "subord_raw": 111,
+      "train_samples": 5018,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 18,
+      "basic_raw": 18,
+      "leaf_local_ids": [
+        445,
+        446
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 112,
+      "subord_raw": 112,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 16,
+      "basic_raw": 16,
+      "leaf_local_ids": [
+        447,
+        448
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 113,
+      "subord_raw": 113,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 16,
+      "basic_raw": 16,
+      "leaf_local_ids": [
+        449,
+        450,
+        451,
+        452,
+        453,
+        454,
+        455,
+        456,
+        457
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 9,
+      "subord_local": 114,
+      "subord_raw": 114,
+      "train_samples": 11700,
+      "val_samples": 450
+    },
+    {
+      "basic_local": 16,
+      "basic_raw": 16,
+      "leaf_local_ids": [
+        458,
+        459
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 115,
+      "subord_raw": 115,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 16,
+      "basic_raw": 16,
+      "leaf_local_ids": [
+        460,
+        461
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 116,
+      "subord_raw": 116,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 16,
+      "basic_raw": 16,
+      "leaf_local_ids": [
+        462
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 1,
+      "subord_local": 117,
+      "subord_raw": 117,
+      "train_samples": 1300,
+      "val_samples": 50
+    },
+    {
+      "basic_local": 16,
+      "basic_raw": 16,
+      "leaf_local_ids": [
+        473,
+        474
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 118,
+      "subord_raw": 118,
+      "train_samples": 2600,
+      "val_samples": 100
+    },
+    {
+      "basic_local": 16,
+      "basic_raw": 16,
+      "leaf_local_ids": [
+        475,
+        476,
+        477,
+        478,
+        479
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 5,
+      "subord_local": 119,
+      "subord_raw": 119,
+      "train_samples": 6500,
+      "val_samples": 250
+    },
+    {
+      "basic_local": 16,
+      "basic_raw": 16,
+      "leaf_local_ids": [
+        480,
+        481,
+        482
+      ],
+      "min_train_per_leaf": 1159,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 120,
+      "subord_raw": 120,
+      "train_samples": 3759,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 16,
+      "basic_raw": 16,
+      "leaf_local_ids": [
+        483,
+        484,
+        485
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 121,
+      "subord_raw": 121,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 16,
+      "basic_raw": 16,
+      "leaf_local_ids": [
+        486,
+        487,
+        488,
+        489
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 122,
+      "subord_raw": 122,
+      "train_samples": 5200,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 16,
+      "basic_raw": 16,
+      "leaf_local_ids": [
+        490,
+        491,
+        492
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 3,
+      "subord_local": 123,
+      "subord_raw": 123,
+      "train_samples": 3900,
+      "val_samples": 150
+    },
+    {
+      "basic_local": 16,
+      "basic_raw": 16,
+      "leaf_local_ids": [
+        493
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 1,
+      "subord_local": 124,
+      "subord_raw": 124,
+      "train_samples": 1300,
+      "val_samples": 50
+    },
+    {
+      "basic_local": 19,
+      "basic_raw": 19,
+      "leaf_local_ids": [
+        494,
+        495,
+        496,
+        497
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 4,
+      "subord_local": 125,
+      "subord_raw": 125,
+      "train_samples": 5200,
+      "val_samples": 200
+    },
+    {
+      "basic_local": 19,
+      "basic_raw": 19,
+      "leaf_local_ids": [
+        498,
+        499
+      ],
+      "min_train_per_leaf": 1300,
+      "min_val_per_leaf": 50,
+      "n_leaves": 2,
+      "subord_local": 126,
+      "subord_raw": 126,
+      "train_samples": 2600,
+      "val_samples": 100
+    }
+  ],
+  "selected": {
+    "basic_local": 2,
+    "basic_raw": 2,
+    "leaf_local_ids": [
+      153,
+      154,
+      155,
+      156,
+      157
+    ],
+    "min_train_per_leaf": 1300,
+    "min_val_per_leaf": 50,
+    "n_leaves": 5,
+    "subord_local": 24,
+    "subord_raw": 24,
+    "train_samples": 6500,
+    "val_samples": 250
+  },
+  "selection_rule": "n_leaves=5; soporte train m\u00e1s pr\u00f3ximo a la mediana"
+}

@@ -58,3 +58,4 @@ def conditional_head_prediction(parent, head_probs, taxonomy: Taxonomy):
 
 def raw_internal_node_prediction(flat_probs: Mapping[Hashable, float], taxonomy: Taxonomy) -> bool:
     return argmax_dict(flat_probs) in set(taxonomy.internal_nodes)
+

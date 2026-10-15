@@ -13,7 +13,7 @@ def _weighted_average(values, weights):
     return out
 
 
-def fedgrain_endpoint_average(
+def resolvfl_endpoint_average(
     local_endpoints: Mapping[Hashable, object],
     client_weights: Mapping[Hashable, float],
     supervision_fractions: Mapping[Hashable, float],
@@ -42,3 +42,4 @@ def active_cohort_endpoint_average(
             raise ValueError("Empty active cohort and no previous endpoint supplied")
         return previous_endpoint
     return _weighted_average([local_endpoints[k] for k in active], [client_weights[k] for k in active])
+

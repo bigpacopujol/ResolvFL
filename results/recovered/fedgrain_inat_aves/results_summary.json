@@ -1,0 +1,94 @@
+{
+  "dataset": "iNat2021-mini-Aves",
+  "n_species": 1486,
+  "n_internal_nodes": 827,
+  "max_depth": 4,
+  "fedgrain_leaf_acc": 0.42678331090174965,
+  "flat_fedavg_leaf_acc": 0.29784656796769854,
+  "flat_fedavg_abstain_rate": 0.857200538358008,
+  "rounds": 150,
+  "num_clients": 10,
+  "E1_aves": {
+    "violated_node": "Petroica",
+    "violated_size": 4,
+    "violated_leaves_resolvable": 0.4583333333333333,
+    "violated_leaves_violated": 0.041666666666666664,
+    "other_leaves_resolvable": 0.4266810694031866,
+    "other_leaves_violated": 0.36348906292195515,
+    "family_acc_resolvable": 0.75,
+    "family_acc_violated": 0.6666666666666666
+  },
+  "E1_aves_trajectory": [
+    {
+      "round": 15,
+      "leaf_acc_overall": 0.06460296096904442,
+      "violated_leaves_acc": 0.0,
+      "other_leaves_acc": 0.06481231433972455,
+      "superclass_acc": 0.0
+    },
+    {
+      "round": 30,
+      "leaf_acc_overall": 0.11736204576043069,
+      "violated_leaves_acc": 0.0,
+      "other_leaves_acc": 0.11774237105049959,
+      "superclass_acc": 0.08333333333333333
+    },
+    {
+      "round": 45,
+      "leaf_acc_overall": 0.16662180349932706,
+      "violated_leaves_acc": 0.125,
+      "other_leaves_acc": 0.1667566837699163,
+      "superclass_acc": 0.3333333333333333
+    },
+    {
+      "round": 60,
+      "leaf_acc_overall": 0.2044414535666218,
+      "violated_leaves_acc": 0.08333333333333333,
+      "other_leaves_acc": 0.20483391844450446,
+      "superclass_acc": 0.375
+    },
+    {
+      "round": 75,
+      "leaf_acc_overall": 0.2348586810228802,
+      "violated_leaves_acc": 0.041666666666666664,
+      "other_leaves_acc": 0.23548474210099918,
+      "superclass_acc": 0.5
+    },
+    {
+      "round": 90,
+      "leaf_acc_overall": 0.263257065948856,
+      "violated_leaves_acc": 0.041666666666666664,
+      "other_leaves_acc": 0.2639751552795031,
+      "superclass_acc": 0.5833333333333334
+    },
+    {
+      "round": 105,
+      "leaf_acc_overall": 0.29232839838492597,
+      "violated_leaves_acc": 0.0,
+      "other_leaves_acc": 0.2932757223872536,
+      "superclass_acc": 0.625
+    },
+    {
+      "round": 120,
+      "leaf_acc_overall": 0.3192462987886945,
+      "violated_leaves_acc": 0.0,
+      "other_leaves_acc": 0.3202808533621388,
+      "superclass_acc": 0.625
+    },
+    {
+      "round": 135,
+      "leaf_acc_overall": 0.3370121130551817,
+      "violated_leaves_acc": 0.0,
+      "other_leaves_acc": 0.33810423980556303,
+      "superclass_acc": 0.5416666666666666
+    },
+    {
+      "round": 150,
+      "leaf_acc_overall": 0.3624495289367429,
+      "violated_leaves_acc": 0.041666666666666664,
+      "other_leaves_acc": 0.36348906292195515,
+      "superclass_acc": 0.6666666666666666
+    }
+  ],
+  "fedavg_tree_leaf_acc": 0.35908479138627186
+}

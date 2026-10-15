@@ -1,7 +1,11 @@
 {
-  "registry": "FedGrain manuscript-facing canonical results",
-  "version": "0.2.0-rc2",
+  "registry": "ResolvFL manuscript-facing canonical results",
+  "version": "0.2.0-rc4",
   "metric_contract": "v1.0.0",
   "current_export": "manuscript_results.csv",
-  "generated": "2026-09-16"
+  "generated": "2026-10-15",
+  "accepted_records": 76,
+  "quarantined_records": 4,
+  "source_master_date": "2026-10-08",
+  "run_index_semantics": "Presentation order only; never a recovered random seed."
 }
