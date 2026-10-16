@@ -9,7 +9,7 @@ ResolvFL addresses fine-grained recognition when federated clients annotate exam
 3. **empirical coverage auditing**, which identifies the internal decisions represented by the observed federation;
 4. **node-specific federated aggregation**, using the clients that supervise each decision.
 
-The repository contains the core implementation, protocol configurations, metric definitions, accepted manuscript results, and scripts that regenerate tables and figures from that registry. Recovered Colab training sources and saved JSON run outputs are now included. See [the recovered-experiment guide](docs/RECOVERED_EXPERIMENTS.md) for source selection, verified numerical matches and remaining dependencies. End-to-end execution equivalence is not yet certified.
+The repository provides the ResolvFL implementation, training notebooks, experimental configurations, metric definitions, and results for CIFAR-100, iNat-Aves, and ImageNet-3L/F. It also includes scripts to generate the manuscript tables and figures. See the [experiment guide](docs/RECOVERED_EXPERIMENTS.md) for the dataset-specific notebooks and saved run outputs.
 
 ## Quick start
 
@@ -110,7 +110,7 @@ All default experiments use 10 clients, 150 communication rounds, one local epoc
 | iNat-Aves | 29.10 ± 0.77 | 38.25 ± 2.31 | 40.45 ± 2.34 |
 | ImageNet-3L/F | 52.68 ± 7.77 | 59.52 ± 3.71 | 59.38 ± 2.67 |
 
-The paired comparisons and coverage-removal interventions used in the paper are available in `results/canonical/` and `results/derived/`. Four unpromoted iNat summaries are retained separately in `results/quarantine/` and are excluded from manuscript exports. The optional paired-comparison figure shows individual paired observations where available; it does not infer new summaries.
+Results for the paired comparisons and coverage-removal interventions are available in `results/canonical/` and `results/derived/`.
 
 ## Metrics
 
@@ -140,9 +140,9 @@ figures/            regenerated manuscript figures
 
 `docs/REPRODUCIBILITY.md` describes the artifact workflow and the provenance recorded with each manuscript-facing result. `docs/EXPERIMENTS.md` contains the experimental protocol and dataset-specific settings.
 
-## Name migration
+## Experiment sources
 
-The method and Python package are now **ResolvFL** and `resolvfl`. Update imports to `resolvfl` and use `resolvfl_endpoint_average`. The repository is now `bigpacopujol/ResolvFL`. Original recovered experiment files retain historical names to preserve checkpoint references. Historical result values are unchanged.
+Training notebooks and Python scripts are available in `experiments/recovered/`, with saved run outputs in `results/recovered/`. Some original filenames and checkpoint paths use the earlier name FedGrain; these identifiers are retained to keep the notebooks compatible with their saved artifacts.
 
 ## Citation
 
