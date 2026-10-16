@@ -3,9 +3,7 @@ CITATION.cff
 CONTRIBUTING.md
 MANIFEST.sha256
 README.md
-RELEASE_NOTES.md
 REPO_TREE.txt
-SECURITY.md
 configs/cifar100.yaml
 configs/imagenet_3lf.yaml
 configs/inat_aves.yaml
