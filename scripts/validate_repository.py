@@ -53,3 +53,4 @@ def validate(root=ROOT):
 if __name__ == '__main__':
     accepted, excluded = validate()
     print(f'OK: {accepted} accepted records; {excluded} quarantined; CSV/JSON consistent. This validates artifacts, not executed training.')
+

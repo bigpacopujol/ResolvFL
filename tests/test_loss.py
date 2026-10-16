@@ -17,3 +17,4 @@ def test_leaf_label_uses_both_heads():
     e2 = torch.nn.functional.cross_entropy(logits["A"].unsqueeze(0), torch.tensor([1]))
     assert torch.allclose(got, e1 + e2)
 
+

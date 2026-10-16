@@ -49,3 +49,4 @@ def controlled_deep_cohort_size(rho_nom: float, n_clients: int = 10) -> int:
 def controlled_realized_overlap(rho_nom: float, n_clients: int = 10) -> float:
     return controlled_deep_cohort_size(rho_nom, n_clients) / float(n_clients)
 
+

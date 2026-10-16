@@ -15,12 +15,12 @@ CIFAR-100,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leave
 CIFAR-100,paired_difference,default,ResolvFL-Tree,leaf_accuracy_difference,all leaves,0.22,0.64,,,percentage_points,partial,true,,
 ImageNet-3L/F,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,6.84,4.07,,,percentage_points,partial,true,,
 ImageNet-3L/F,paired_difference,default,ResolvFL-Tree,leaf_accuracy_difference,all leaves,-0.13,1.05,,,percentage_points,partial,true,,
-iNat-Aves,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,,6.1,percentage_points,partial,true,"Run IDs not recovered; run_index is presentation order only, not a seed.",1
-iNat-Aves,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,,11.3,percentage_points,partial,true,"Run IDs not recovered; run_index is presentation order only, not a seed.",2
-iNat-Aves,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,,10.1,percentage_points,partial,true,"Run IDs not recovered; run_index is presentation order only, not a seed.",3
-iNat-Aves,paired_difference,default,ResolvFL-Tree,leaf_accuracy_difference,all leaves,,,,6.8,percentage_points,partial,true,"Run IDs not recovered; run_index is presentation order only, not a seed.",1
-iNat-Aves,paired_difference,default,ResolvFL-Tree,leaf_accuracy_difference,all leaves,,,,0.2,percentage_points,partial,true,"Run IDs not recovered; run_index is presentation order only, not a seed.",2
-iNat-Aves,paired_difference,default,ResolvFL-Tree,leaf_accuracy_difference,all leaves,,,,-0.3,percentage_points,partial,true,"Run IDs not recovered; run_index is presentation order only, not a seed.",3
+iNat-Aves,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,,6.1,percentage_points,partial,true,"run_index denotes presentation order, not a random seed.",1
+iNat-Aves,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,,11.3,percentage_points,partial,true,"run_index denotes presentation order, not a random seed.",2
+iNat-Aves,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,,10.1,percentage_points,partial,true,"run_index denotes presentation order, not a random seed.",3
+iNat-Aves,paired_difference,default,ResolvFL-Tree,leaf_accuracy_difference,all leaves,,,,6.8,percentage_points,partial,true,"run_index denotes presentation order, not a random seed.",1
+iNat-Aves,paired_difference,default,ResolvFL-Tree,leaf_accuracy_difference,all leaves,,,,0.2,percentage_points,partial,true,"run_index denotes presentation order, not a random seed.",2
+iNat-Aves,paired_difference,default,ResolvFL-Tree,leaf_accuracy_difference,all leaves,,,,-0.3,percentage_points,partial,true,"run_index denotes presentation order, not a random seed.",3
 ImageNet-3L/F,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,1,5.56,percentage_points,complete,true,,
 ImageNet-3L/F,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,2,11.39,percentage_points,complete,true,,
 ImageNet-3L/F,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,,,3,3.55,percentage_points,complete,true,,
@@ -75,3 +75,4 @@ CIFAR-100,server_mass_ablation,default,ResolvFL weighting,leaf_accuracy,all leav
 CIFAR-100,server_mass_ablation,default,Active cohort only,leaf_accuracy,all leaves,,,3,38.23,percent,complete,true,partition_seed=10003; training_seed=20003,
 CIFAR-100,server_mass_ablation,default,ResolvFL weighting - Active cohort only,leaf_accuracy_difference,all leaves,,,3,0.33,percentage_points,complete,true,partition_seed=10003; training_seed=20003,
 CIFAR-100,server_mass_ablation,default,ResolvFL weighting - Active cohort only,leaf_accuracy_difference,all leaves,0.36,0.54,,,percentage_points,complete,true,,
+

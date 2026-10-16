@@ -1,0 +1,200 @@
+{
+  "files": [
+    {
+      "path": "experiments/ResolvFL_CIFAR100.ipynb",
+      "sha256": "745321b86c91c68459c1af8f58f12cfd1ac3d507ecd67200869a8511db09fd8e"
+    },
+    {
+      "path": "experiments/ResolvFL_CIFAR100_seed_paired.ipynb",
+      "sha256": "60d9a5adab0e74b95442876d82bcfb80ffc701cd47b3a895df95dc0e68d6b6e8"
+    },
+    {
+      "path": "experiments/ResolvFL_ImageNet3LF.ipynb",
+      "sha256": "34f03fb326f4d891a99296247f6378051bd30e55e21c18475fbec24c5fd0b72a"
+    },
+    {
+      "path": "experiments/ResolvFL_ImageNet3LF_audited_violation.ipynb",
+      "sha256": "8f1e3208558f43e03346b18232dbb30c23f2b5de3c35def7f659a22a85a63be9"
+    },
+    {
+      "path": "experiments/ResolvFL_iNat_Aves.ipynb",
+      "sha256": "b45976e76030694a97bc634e711d2a64c81b545b95b110ea8178a27db156534f"
+    },
+    {
+      "path": "experiments/extract_dino_features.py",
+      "sha256": "4849652cc270f1bc194c2a9ad9a22186a0783c956867bcf9e97abbf5886a6cbb"
+    },
+    {
+      "path": "experiments/train_imagenet3lf.py",
+      "sha256": "6f2c2f411feafdeb52e4c0dd42ce746b9671cd3caa8f41cedb33bf3aa80e16d3"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/imagenet3lf_canonical_summary.json",
+      "sha256": "31555eba3a1d9f01f5fafca13ef974652c9197766241f946973084501b35cd71"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/imagenet3lf_main_results.json",
+      "sha256": "01f9cc5b362f76dc387627e314c40e71768e24e3cfc1c294784cdb9836fce13c"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/imagenet3lf_tree_masked_seed1_log.json",
+      "sha256": "a71ff4cdbde0b8d1784f3fdd50cbb79f38b0defb63a6849b1cf44edebf0d6602"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/imagenet3lf_tree_masked_seed2_log.json",
+      "sha256": "f3e0bc27ad7ead54faba17e1337c302c62a3ad9443cb1ff5fa102e22de0030ea"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/imagenet3lf_tree_masked_seed3_log.json",
+      "sha256": "f861d4d6af95725f1ee12a09e41ddf969497e7f2ad8d5b0dce0f7a2c3a4d8c03"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/imagenet3lf_tree_unmasked_seed1_log.json",
+      "sha256": "fe4960ce740bb597554e9953be458299c957300e19eca61eeacff6cbf5ae9a3f"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/imagenet3lf_tree_unmasked_seed2_log.json",
+      "sha256": "61b995f8c9cf4c50a07cd4a38c3a8e42a7014ce9beacfa79f1dadf5410980563"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/imagenet3lf_tree_unmasked_seed3_log.json",
+      "sha256": "a9f4134edeb34cf462a860417ff0879bf6bb1580a9a8d96664c867ff9089e89c"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v3_exact_pathloss_violation/imagenet3lf_violation_canonical_summary.json",
+      "sha256": "85bddbec63a2cc9356ff69d2bdcae69ade88998581d9dff18cb5681b32b3b5bc"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v3_exact_pathloss_violation/imagenet3lf_violation_results.json",
+      "sha256": "b737d358b1a04cc8ff7c26eda830f54a46712f79f926a00078c3b9e8798a5577"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v3_exact_pathloss_violation/partition_seed1_diagnostics.json",
+      "sha256": "d0246016e59224d46f70f1442a3e1664a928da06abf1a4156917a8fcb4f5c143"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v3_exact_pathloss_violation/partition_seed2_diagnostics.json",
+      "sha256": "dd47e783507b54ee2c307b23b50bfecb48c4ac38b74f570d365cfdcadbc11e83"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v3_exact_pathloss_violation/partition_seed3_diagnostics.json",
+      "sha256": "ba5061c603e389c42f2237c4eadbec0e3dc035205ae9a8432eb2a223ce9f9568"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_certificate_summary.json",
+      "sha256": "e24f25f4834276f9a340ae2bc42487d5f85ed77b421118919382e974f3844912"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_subord24_violated/tree_seed1_log.json",
+      "sha256": "9056ca198b059606e6f983cfa9ed6ec8dc782b49a20b23d25614f5bb522e35d9"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_subord24_violated/tree_seed2_log.json",
+      "sha256": "04437f20154b3def816be1f5f11a81bcc7a09702e409a925b83eb4f6f68911d3"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_subord24_violated/tree_seed3_log.json",
+      "sha256": "bdd844feb11cf100a8a87c749d4e0691eb4f03d161115a8b4267a5853dfbf835"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v3_exact_pathloss_violation/violation_target_selection.json",
+      "sha256": "85e35c670705fa938eba5e2b2e6dc2337c52da83fbac3f01c2a2c3f81ff9e4fb"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/imagenet3lf_main_results_audited.json",
+      "sha256": "c92ac27c107ff150fdc57578387bfcce8b9524a81d1853afca47b1c729e9e1a6"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/imagenet3lf_violation_canonical_summary.json",
+      "sha256": "f7909736c853254d4fded453f1238ca4faedfaea01e1e013d859762fdfdebbd9"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/imagenet3lf_violation_results.json",
+      "sha256": "0fff84520fadee1d53dc34ee01268f042c19db3fb0207c7cb27eb40d5e108d4e"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/partition_seed1_diagnostics.json",
+      "sha256": "d0246016e59224d46f70f1442a3e1664a928da06abf1a4156917a8fcb4f5c143"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/partition_seed2_diagnostics.json",
+      "sha256": "dd47e783507b54ee2c307b23b50bfecb48c4ac38b74f570d365cfdcadbc11e83"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/partition_seed3_diagnostics.json",
+      "sha256": "ba5061c603e389c42f2237c4eadbec0e3dc035205ae9a8432eb2a223ce9f9568"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/violation_certificate_summary.json",
+      "sha256": "e24f25f4834276f9a340ae2bc42487d5f85ed77b421118919382e974f3844912"
+    },
+    {
+      "path": "results/runs/imagenet3lf_ckpt/v4_exact_pathloss_violation_full/violation_target_selection.json",
+      "sha256": "85e35c670705fa938eba5e2b2e6dc2337c52da83fbac3f01c2a2c3f81ff9e4fb"
+    },
+    {
+      "path": "results/runs/resolvfl_cifar100/ablation_no_extra_mass/ablation_no_extra_mass_results.json",
+      "sha256": "acf8ebfcd668116f58fed9210f58af74974efcd1d8f2c7e15d773720bc08cb9f"
+    },
+    {
+      "path": "results/runs/resolvfl_cifar100/e1_full_grid.json",
+      "sha256": "4fc27ef190e17128aee81501b611f44acc308ab4d091ffcb8b14cf0d0ff9960f"
+    },
+    {
+      "path": "results/runs/resolvfl_cifar100/e1_multiseed.json",
+      "sha256": "e1566eb9906ed36cef7b8aba33db70100921954425f5fb616d59510c02ed7d02"
+    },
+    {
+      "path": "results/runs/resolvfl_cifar100/grid_3seed.json",
+      "sha256": "eaee77002ed7825c5e380059bf9f0eddfc5004cd21f891d24fb2d1be3958167b"
+    },
+    {
+      "path": "results/runs/resolvfl_cifar100/multi_node_violation.json",
+      "sha256": "5c43aa557f1b93f64e4daf33d5438282c39ff34f62e003be0e12cb59ec97da9e"
+    },
+    {
+      "path": "results/runs/resolvfl_cifar100/overlap_sweep.json",
+      "sha256": "485381505044d09b46db191b1527515fdc8d7cdb91f6e12d088cf5af82a357db"
+    },
+    {
+      "path": "results/runs/resolvfl_cifar100/overlap_trajectory.json",
+      "sha256": "8c1b0b47e18859629e68fc412ac7b9756b015235a73bfd69a40e5b037d463952"
+    },
+    {
+      "path": "results/runs/resolvfl_cifar100/partition_fingerprints_table1_main.json",
+      "sha256": "3b1e295248930b66838fa5871eea94e54cda5aa181ef00964063e99e130d85df"
+    },
+    {
+      "path": "results/runs/resolvfl_cifar100/results_summary.json",
+      "sha256": "18f431e0e53044ceb7d481982917b9d9a7f9d839ff1cbab8e1f96ecf5b359154"
+    },
+    {
+      "path": "results/runs/resolvfl_cifar100/table1_multiseed_partitioned_v2.json",
+      "sha256": "17f9da011978ba469a4e1b7861f2d8943788ec4f7c6d0a33233065c556872d72"
+    },
+    {
+      "path": "results/runs/resolvfl_cifar100/weight_diagnostic_overlap_0.5_seed1.json",
+      "sha256": "e3b3a55adae74cb7fd7c01f90893739acd4f5d4796157166f5d8a87c0f748a3e"
+    },
+    {
+      "path": "results/runs/resolvfl_cifar100/weight_diagnostic_table1_main_partition.json",
+      "sha256": "7a096f7c5de79efa45538e4522e0bf41d2e03505e1b27bf7b3e66df6cf32a6a0"
+    },
+    {
+      "path": "results/runs/resolvfl_inat_aves/e1_trajectory_Petroica_TRAJFIX.json",
+      "sha256": "2a8ea68e6d3b271c52fb9ebca5b59b9b3aacb7a820f0645affbba5d86dcb0eb1"
+    },
+    {
+      "path": "results/runs/resolvfl_inat_aves/multiseed_main.json",
+      "sha256": "0def0171a707f6c285f4a754248883672ec3e7301c0716afcff42a403f7ff4fc"
+    },
+    {
+      "path": "results/runs/resolvfl_inat_aves/results_summary.json",
+      "sha256": "b26acaf81dc61b93404b3a03b7c59256b297408029d91adfa74e7e7b60418547"
+    },
+    {
+      "path": "results/runs/resolvfl_inat_aves/rho_cohort_overlap.json",
+      "sha256": "1195746aeef00b87d2df1bb9e13a1fdc1d4d9c10c153bd4102637653a7142f8b"
+    }
+  ]
+}

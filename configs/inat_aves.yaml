@@ -13,6 +13,7 @@ alpha_cls: 0.5
 alpha_dep: 0.5
 representation: frozen ImageNet-pretrained ResNet-50 features + trainable shared projection
 runs: 3 paired runs
-run_ids: not_recovered
+run_ids: not_recorded
 petroica_intervention_seeds: [10, 20, 30]
+
 

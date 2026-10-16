@@ -9,7 +9,7 @@ ResolvFL addresses fine-grained recognition when federated clients annotate exam
 3. **empirical coverage auditing**, which identifies the internal decisions represented by the observed federation;
 4. **node-specific federated aggregation**, using the clients that supervise each decision.
 
-The repository provides the ResolvFL implementation, training notebooks, experimental configurations, metric definitions, and results for CIFAR-100, iNat-Aves, and ImageNet-3L/F. It also includes scripts to generate the manuscript tables and figures. See the [experiment guide](docs/RECOVERED_EXPERIMENTS.md) for the dataset-specific notebooks and saved run outputs.
+The repository provides the ResolvFL implementation, training notebooks, experimental configurations, metric definitions, and results for CIFAR-100, iNat-Aves, and ImageNet-3L/F. It also includes scripts to generate the manuscript tables and figures. See the [experiment guide](docs/TRAINING.md) for the dataset-specific notebooks and saved run outputs.
 
 ## Quick start
 
@@ -131,8 +131,8 @@ results/canonical/  manuscript-facing result registry
 results/derived/    generated manuscript tables
 scripts/            validation and figure/table generation
 docs/               dataset, experiment and metric documentation
-experiments/recovered/ recovered Colab notebooks and Python sources
-results/recovered/ original saved run outputs and source hashes
+experiments/        training notebooks and Python scripts
+results/runs/       saved run outputs and source hashes
 figures/            regenerated manuscript figures
 ```
 
@@ -142,11 +142,12 @@ figures/            regenerated manuscript figures
 
 ## Experiment sources
 
-Training notebooks and Python scripts are available in `experiments/recovered/`, with saved run outputs in `results/recovered/`. Some original filenames and checkpoint paths use the earlier name FedGrain; these identifiers are retained to keep the notebooks compatible with their saved artifacts.
+Training notebooks and Python scripts are in `experiments/`; saved run outputs are in `results/runs/`. See the [training guide](docs/TRAINING.md) for notebook selection, inputs and execution instructions.
 
 ## Citation
 
 Citation metadata are provided in `CITATION.cff`. The associated manuscript is:
 
 **Identifiable Fine-Grained Recognition from Federated Mixed-Granularity Supervision**.
+
 

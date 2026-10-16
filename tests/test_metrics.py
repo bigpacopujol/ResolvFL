@@ -35,3 +35,4 @@ def test_flat_leaf_renormalization_and_internal_diag():
     assert abs(sum(leaf.values()) - 1.0) < 1e-12
     assert raw_internal_node_prediction(flat, t) is True
 
+

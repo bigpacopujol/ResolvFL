@@ -1,6 +1,6 @@
 # Experimental protocol
 
-The [training notebook guide](RECOVERED_EXPERIMENTS.md) lists the sources for each dataset. Shared protocol settings are:
+The [training notebook guide](TRAINING.md) lists the sources for each dataset. Shared protocol settings are:
 
 - 10 clients;
 - 150 communication rounds;
@@ -26,3 +26,4 @@ For the three-run comparisons, the repository reports descriptive means, sample 
 ## Controlled cohort-overlap sweep
 
 For the CIFAR controlled sweep, all 10 clients supervise the root decision. The deep cohort is a subset of size 10, 8, 5, 2, or 1. Its Jaccard overlap with the root cohort is therefore 1.00, 0.80, 0.50, 0.20, or 0.10, respectively. These are controlled settings, not measured overlap values for the default Dirichlet federations.
+

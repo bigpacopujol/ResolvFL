@@ -43,3 +43,4 @@ def active_cohort_endpoint_average(
         return previous_endpoint
     return _weighted_average([local_endpoints[k] for k in active], [client_weights[k] for k in active])
 
+

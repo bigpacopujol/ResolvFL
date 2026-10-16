@@ -29,3 +29,4 @@ def test_uncovered_subtree_is_reported_once():
     t = Taxonomy('r', {'r': ['a', 'b'], 'b': ['c', 'd'], 'd': ['e', 'f']})
     assert maximal_uncovered_roots({'r': True, 'b': False, 'd': False}, t) == ['b']
     assert maximal_uncovered_roots({'r': False, 'b': False, 'd': False}, t) == ['r']
+

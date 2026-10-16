@@ -53,3 +53,4 @@ def maximal_uncovered_roots(flags: Mapping[Hashable, bool], taxonomy: Taxonomy):
         else:
             stack.extend(reversed(children))
     return roots
+

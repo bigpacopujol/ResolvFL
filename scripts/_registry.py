@@ -29,3 +29,4 @@ def save_figure(fig, name):
     out.mkdir(exist_ok=True)
     for ext in ('pdf', 'png'):
         fig.savefig(out / f'{name}.{ext}', dpi=300 if ext == 'png' else None, bbox_inches='tight')
+

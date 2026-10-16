@@ -14,3 +14,4 @@ ImageNet-3L/F,coverage_removal,median-support five-leaf subordinate,Reference,ma
 ImageNet-3L/F,coverage_removal,median-support five-leaf subordinate,Coverage removed,marginal_prefix_accuracy,subordinate,79.2,1.2,,,percent,partial,true,,
 ImageNet-3L/F,coverage_removal,median-support five-leaf subordinate,Reference,conditional_head_accuracy,subordinate head,80.27,1.01,,,percent,partial,true,,
 ImageNet-3L/F,coverage_removal,median-support five-leaf subordinate,Coverage removed,conditional_head_accuracy,subordinate head,80.27,1.01,,,percent,partial,true,,
+

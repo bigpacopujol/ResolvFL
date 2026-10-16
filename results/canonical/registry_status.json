@@ -7,5 +7,6 @@
   "accepted_records": 76,
   "quarantined_records": 4,
   "source_master_date": "2026-10-08",
-  "run_index_semantics": "Presentation order only; never a recovered random seed."
+  "run_index_semantics": "Presentation order, not a random seed."
 }
+

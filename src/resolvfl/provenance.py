@@ -23,3 +23,4 @@ def build_manifest(root):
         rows.append((sha256_file(path), path.relative_to(root).as_posix()))
     return rows
 
+

@@ -29,3 +29,4 @@ def test_quarantined_summary_cannot_be_reintroduced(tmp_path):
     status = json.loads(p.read_text()); status['accepted_records'] += 1; p.write_text(json.dumps(status))
     with pytest.raises(ValueError, match='Quarantined summary reintroduced'):
         validate(tmp_path)
+

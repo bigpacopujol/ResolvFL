@@ -30,3 +30,4 @@ ax.spines[['top', 'right']].set_visible(False)
 ax.legend(frameon=False, loc='upper center', bbox_to_anchor=(.5, -.17), ncol=2)
 fig.tight_layout()
 save_figure(fig, 'fig_paired_differences')
+

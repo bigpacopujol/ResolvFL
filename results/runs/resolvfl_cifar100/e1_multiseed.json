@@ -1,0 +1,23 @@
+{
+  "seed1": {
+    "violated_resolvable": 0.42,
+    "violated_violated": 0.098,
+    "other_resolvable": 0.32873684210526316,
+    "other_violated": 0.33410526315789474,
+    "superclass_acc": 0.46
+  },
+  "seed2": {
+    "violated_resolvable": 0.388,
+    "violated_violated": 0.096,
+    "other_resolvable": 0.33021052631578945,
+    "other_violated": 0.3336842105263158,
+    "superclass_acc": 0.448
+  },
+  "seed3": {
+    "violated_resolvable": 0.408,
+    "violated_violated": 0.098,
+    "other_resolvable": 0.332,
+    "other_violated": 0.3316842105263158,
+    "superclass_acc": 0.466
+  }
+}

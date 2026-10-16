@@ -285,7 +285,7 @@
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": "Run IDs not recovered; run_index is presentation order only, not a seed.",
+    "notes": "run_index denotes presentation order, not a random seed.",
     "run_index": 1
   },
   {
@@ -302,7 +302,7 @@
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": "Run IDs not recovered; run_index is presentation order only, not a seed.",
+    "notes": "run_index denotes presentation order, not a random seed.",
     "run_index": 2
   },
   {
@@ -319,7 +319,7 @@
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": "Run IDs not recovered; run_index is presentation order only, not a seed.",
+    "notes": "run_index denotes presentation order, not a random seed.",
     "run_index": 3
   },
   {
@@ -336,7 +336,7 @@
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": "Run IDs not recovered; run_index is presentation order only, not a seed.",
+    "notes": "run_index denotes presentation order, not a random seed.",
     "run_index": 1
   },
   {
@@ -353,7 +353,7 @@
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": "Run IDs not recovered; run_index is presentation order only, not a seed.",
+    "notes": "run_index denotes presentation order, not a random seed.",
     "run_index": 2
   },
   {
@@ -370,7 +370,7 @@
     "unit": "percentage_points",
     "provenance_level": "partial",
     "manuscript_eligible": "true",
-    "notes": "Run IDs not recovered; run_index is presentation order only, not a seed.",
+    "notes": "run_index denotes presentation order, not a random seed.",
     "run_index": 3
   },
   {
@@ -1292,3 +1292,4 @@
     "run_index": null
   }
 ]
+

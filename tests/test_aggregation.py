@@ -15,3 +15,4 @@ def test_no_extra_mass_ablation():
     got = active_cohort_endpoint_average(vals, w, m)
     assert torch.allclose(got, torch.tensor([2.0]))
 
+
