@@ -1,6 +1,6 @@
-# Recovered experiment sources — 2026-10-15
+# Training notebooks and saved results
 
-The author supplied the original Colab notebooks, Python scripts and saved run archives. These sources are available under `experiments/recovered/`; recovered JSON outputs are under `results/recovered/`. Their historical FedGrain names identify the original runs of the method now named ResolvFL. Executable identifiers, filenames and paths are retained because checkpoint names and resume paths depend on them. Notebook prose and selected comments have been edited without changing executable tokens.
+Colab notebooks and Python training scripts are available in `experiments/recovered/`, with saved JSON run outputs in `results/recovered/`. Original FedGrain filenames and identifiers are retained for compatibility with checkpoint names and resume paths.
 
 ## Which source to use
 
