@@ -14,5 +14,4 @@ Each row records:
 The JSON export contains the same manuscript-facing registry in machine-readable form. `registry_status.json` records the registry version and generation date.
 
 
-There are 76 accepted records; four unpromoted iNat summaries are archived in `../quarantine/`. Their exclusion does not alter the accepted main results or intervention endpoints. `run_index` is presentation order, not a random seed. Missing run identifiers are not reconstructed from rounded values.
-
+The registry contains 76 records. Additional iNat summaries are stored separately in `../archive/`. `run_index` denotes presentation order, not a random seed.

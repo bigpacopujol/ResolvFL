@@ -1,4 +1,4 @@
-"""Read the accepted registry; artifact scripts never read quarantined data."""
+"""Read the accepted registry; artifact scripts never read archived data."""
 from pathlib import Path
 import csv
 

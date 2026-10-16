@@ -27,9 +27,9 @@ def read_pair(base):
 
 def validate(root=ROOT):
     accepted = read_pair(root / 'results/canonical/manuscript_results')
-    excluded = read_pair(root / 'results/quarantine/unpromoted_results')
+    excluded = read_pair(root / 'results/archive/additional_summaries')
     status = json.loads((root / 'results/canonical/registry_status.json').read_text())
-    if len(accepted) != status['accepted_records'] or len(excluded) != status['quarantined_records']:
+    if len(accepted) != status['accepted_records'] or len(excluded) != status['archived_records']:
         raise ValueError('Registry counts disagree with registry_status.json')
     identities = set()
     for row in accepted:
@@ -44,13 +44,13 @@ def validate(root=ROOT):
                 raise ValueError('iNat presentation indices must not be labelled as seeds')
     for row in excluded:
         if row['manuscript_eligible'] != 'false':
-            raise ValueError('Quarantined record marked eligible')
+            raise ValueError('Archived record marked eligible')
         if tuple(row[k] for k in IDENTITY) in identities:
-            raise ValueError('Quarantined summary reintroduced in accepted registry')
+            raise ValueError('Archived summary reintroduced in accepted registry')
     return len(accepted), len(excluded)
 
 
 if __name__ == '__main__':
     accepted, excluded = validate()
-    print(f'OK: {accepted} accepted records; {excluded} quarantined; CSV/JSON consistent. This validates artifacts, not executed training.')
+    print(f'OK: {accepted} accepted records; {excluded} archived; CSV/JSON consistent. This validates artifacts, not executed training.')
 

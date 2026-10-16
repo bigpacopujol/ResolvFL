@@ -5,7 +5,7 @@
   "current_export": "manuscript_results.csv",
   "generated": "2026-10-15",
   "accepted_records": 76,
-  "quarantined_records": 4,
+  "archived_records": 4,
   "source_master_date": "2026-10-08",
   "run_index_semantics": "Presentation order, not a random seed."
 }
