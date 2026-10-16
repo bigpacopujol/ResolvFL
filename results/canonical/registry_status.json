@@ -1,12 +1,9 @@
 {
-  "registry": "ResolvFL manuscript-facing canonical results",
+  "registry": "ResolvFL experimental results",
   "version": "0.2.0-rc4",
   "metric_contract": "v1.0.0",
-  "current_export": "manuscript_results.csv",
+  "current_export": "results.csv",
   "generated": "2026-10-15",
-  "accepted_records": 76,
-  "archived_records": 4,
-  "source_master_date": "2026-10-08",
-  "run_index_semantics": "Presentation order, not a random seed."
+  "run_index_semantics": "Presentation order, not a random seed.",
+  "records": 76
 }
-

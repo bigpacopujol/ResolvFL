@@ -9,7 +9,7 @@ The [training notebook guide](TRAINING.md) lists the sources for each dataset. S
 - final-round evaluation;
 - SGD with momentum 0.9 for CIFAR-100 and iNat-Aves, and without momentum for ImageNet-3L/F;
 - optimizer recreation at the beginning of each communication round;
-- weight decay 0 for the audited node-head dynamics.
+- weight decay 0.
 
 Dataset-specific settings:
 

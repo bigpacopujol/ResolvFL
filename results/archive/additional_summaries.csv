@@ -1,6 +1,0 @@
-dataset,experiment,condition,method_or_endpoint,metric,scope,mean,sd,seed,value,unit,provenance_level,manuscript_eligible,notes,run_index
-iNat-Aves,paired_difference,default,Tree-Flat,leaf_accuracy_difference,all leaves,9.17,2.72,,,percentage_points,partial,false,Excluded by the consolidated MASTER (2026-10-08); separate run provenance and explicit promotion required.,
-iNat-Aves,paired_difference,default,ResolvFL-Tree,leaf_accuracy_difference,all leaves,2.23,3.96,,,percentage_points,partial,false,Excluded by the consolidated MASTER (2026-10-08); separate run provenance and explicit promotion required.,
-iNat-Aves,coverage_removal,Petroica,Coverage removed - Reference,leaf_accuracy_difference,target species,-41.67,12.5,,,percentage_points,partial,false,Excluded by the consolidated MASTER (2026-10-08); separate run provenance and explicit promotion required.,
-iNat-Aves,coverage_removal,Petroica,Coverage removed - Reference,leaf_accuracy_difference,"other 1,481 species",0.09,0.11,,,percentage_points,partial,false,Excluded by the consolidated MASTER (2026-10-08); separate run provenance and explicit promotion required.,
-

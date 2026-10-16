@@ -9,7 +9,7 @@
 | ImageNet-3L/F | `experiments/ResolvFL_ImageNet3LF_audited_violation.ipynb` | Exact path-loss training and coverage intervention. Enable the optional main-comparison section to run the main experiments. |
 | Feature extraction | `experiments/extract_dino_features.py` | Extract frozen DINO features from the configured image manifests. |
 
-`ResolvFL_CIFAR100.ipynb` contains the initial CIFAR experiments. `ResolvFL_ImageNet3LF.ipynb` and `train_imagenet3lf.py` implement the earlier node-balanced loss; use the exact-path-loss notebook above for the manuscript comparison.
+`ResolvFL_CIFAR100.ipynb` contains the initial CIFAR experiments. `ResolvFL_ImageNet3LF.ipynb` and `train_imagenet3lf.py` implement the earlier node-balanced loss; use the exact-path-loss notebook above for the main comparison.
 
 ## Run in Colab
 
@@ -42,4 +42,4 @@ Some notebook intervention summaries evaluate the ancestor of the decoded leaf. 
 - iNat-Aves: `resolvfl_inat_aves/results_summary.json` (seed 1) and `multiseed_main.json` (seeds 2 and 3);
 - ImageNet-3L/F: `imagenet3lf_ckpt/v4_exact_pathloss_violation_full/imagenet3lf_main_results_audited.json`.
 
-Run `python scripts/check_results.py` to compare the nine main leaf-accuracy means and sample standard deviations with `results/canonical/manuscript_results.csv`. This command reads saved results. Table and figure generation commands are listed in the README.
+Run `python scripts/check_results.py` to compare the nine main leaf-accuracy means and sample standard deviations with `results/canonical/results.csv`. This command reads saved results. Table and figure generation commands are listed in the README.

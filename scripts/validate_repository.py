@@ -1,4 +1,4 @@
-"""Validate artifact consistency and explicit exclusions; does not certify training runs."""
+"""Validate result formats, record identities and metric definitions."""
 from pathlib import Path
 import csv
 import json
@@ -26,31 +26,25 @@ def read_pair(base):
 
 
 def validate(root=ROOT):
-    accepted = read_pair(root / 'results/canonical/manuscript_results')
-    excluded = read_pair(root / 'results/archive/additional_summaries')
+    accepted = read_pair(root / 'results/canonical/results')
     status = json.loads((root / 'results/canonical/registry_status.json').read_text())
-    if len(accepted) != status['accepted_records'] or len(excluded) != status['archived_records']:
+    if len(accepted) != status['records']:
         raise ValueError('Registry counts disagree with registry_status.json')
     identities = set()
     for row in accepted:
-        if row['manuscript_eligible'] != 'true' or row['metric'] not in METRICS:
-            raise ValueError('Invalid eligibility or metric in accepted registry')
+        if row['metric'] not in METRICS:
+            raise ValueError('Unknown metric in result registry')
         identity = tuple(row[k] for k in IDENTITY)
         if identity in identities:
-            raise ValueError(f'Duplicate accepted record: {identity}')
+            raise ValueError(f'Duplicate record: {identity}')
         identities.add(identity)
         if row['dataset'] == 'iNat-Aves' and row['experiment'] == 'paired_difference' and row['value']:
             if row['seed'] or not row['run_index']:
                 raise ValueError('iNat presentation indices must not be labelled as seeds')
-    for row in excluded:
-        if row['manuscript_eligible'] != 'false':
-            raise ValueError('Archived record marked eligible')
-        if tuple(row[k] for k in IDENTITY) in identities:
-            raise ValueError('Archived summary reintroduced in accepted registry')
-    return len(accepted), len(excluded)
+    return len(accepted)
 
 
 if __name__ == '__main__':
-    accepted, excluded = validate()
-    print(f'OK: {accepted} accepted records; {excluded} archived; CSV/JSON consistent. This validates artifacts, not executed training.')
+    count = validate()
+    print(f'OK: {count} records; CSV/JSON consistent.')
 

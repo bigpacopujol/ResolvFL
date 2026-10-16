@@ -14,7 +14,7 @@ def read(path):
 def main():
     for item in read('source_manifest.json')['files']:
         assert hashlib.sha256((ROOT / item['path']).read_bytes()).hexdigest() == item['sha256'], item['path']
-    with (ROOT / 'results/canonical/manuscript_results.csv').open() as f:
+    with (ROOT / 'results/canonical/results.csv').open() as f:
         rows = list(csv.DictReader(f))
     cifar = read('resolvfl_cifar100/table1_multiseed_partitioned_v2.json')['seeds']
     inat = read('resolvfl_inat_aves/multiseed_main.json')

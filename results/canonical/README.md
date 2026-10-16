@@ -1,17 +1,9 @@
-# Manuscript result registry
+# Experimental results
 
-`manuscript_results.csv` contains the numerical results used by the current Pattern Recognition manuscript.
+`results.csv` contains the summary results for CIFAR-100, iNat-Aves and ImageNet-3L/F. `results.json` provides the same records in JSON format.
 
-Each row records:
+Each record identifies the dataset, experiment, method, metric and evaluation subset, together with its mean and sample standard deviation or individual run value. Accuracies are percentages; paired differences are percentage points.
 
-- dataset and experiment;
-- method or evaluated endpoint;
-- metric family and evaluation scope;
-- mean/sample SD or seed-level value;
-- provenance level;
-- manuscript eligibility.
+`seed` identifies a recorded random seed. `run_index` denotes presentation order when the record does not specify a seed. Empty fields indicate values not supplied for that record.
 
-The JSON export contains the same manuscript-facing registry in machine-readable form. `registry_status.json` records the registry version and generation date.
-
-
-The registry contains 76 records. Additional iNat summaries are stored separately in `../archive/`. `run_index` denotes presentation order, not a random seed.
+The 76 records cover the main comparisons, paired differences and coverage experiments. Table and figure scripts read this registry; per-run outputs are in `../runs/`. Metric definitions are in `../../docs/METRIC_CONTRACT.md`.

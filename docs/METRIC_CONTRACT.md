@@ -1,6 +1,6 @@
 # Metric contract v1.0.0
 
-ResolvFL uses four metric families. Their decoder and evaluation scope are fixed for all manuscript-facing results.
+ResolvFL uses four metric families. Their decoder and evaluation scope are fixed for all experimental results.
 
 ## Leaf accuracy
 

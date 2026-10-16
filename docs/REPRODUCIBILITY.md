@@ -1,6 +1,6 @@
 # Reproducibility
 
-The repository is organized around two reproducibility layers: the **core ResolvFL computations** and the **manuscript-facing artifact pipeline**.
+The repository is organized around two reproducibility layers: the **core ResolvFL computations** and the **table and figure workflow**.
 
 ## Core computations
 
@@ -20,9 +20,9 @@ Run the unit tests with:
 python -m pytest -q
 ```
 
-## Manuscript artifact pipeline
+## Table and figure generation
 
-`results/canonical/manuscript_results.csv` is the source used by the table and figure scripts. Each record includes its dataset, experiment, metric, evaluation scope, summary value, and provenance level.
+`results/canonical/results.csv` is the source used by the table and figure scripts. Each record includes its dataset, experiment, metric, evaluation scope, summary value, and provenance level.
 
 Validate the registry:
 
@@ -30,10 +30,10 @@ Validate the registry:
 python scripts/validate_repository.py
 ```
 
-Regenerate manuscript artifacts:
+Generate tables and figures:
 
 ```bash
-python scripts/export_manuscript_tables.py
+python scripts/export_tables.py
 python scripts/generate_fig2a.py
 python scripts/generate_fig2b.py
 python scripts/generate_fig3.py
@@ -43,7 +43,7 @@ python scripts/generate_fig3.py
 
 Dataset-specific configurations are stored in `configs/` and summarized in `docs/EXPERIMENTS.md`. The default protocol uses 10 clients, 150 communication rounds, one local epoch per round, full participation, and final-round evaluation.
 
-Run `python scripts/check_results.py` to compare the saved per-run main results with the manuscript registry. The [training guide](TRAINING.md) describes the notebooks, required inputs and checkpoint options.
+Run `python scripts/check_results.py` to compare the saved per-run main results with the summary registry. The [training guide](TRAINING.md) describes the notebooks, required inputs and checkpoint options.
 
 ## Coverage implementation
 

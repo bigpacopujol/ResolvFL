@@ -27,13 +27,10 @@ figures/fig_paired_differences.png
 figures/fig_target_subtree_violation.pdf
 figures/fig_target_subtree_violation.png
 pyproject.toml
-results/archive/README.md
-results/archive/additional_summaries.csv
-results/archive/additional_summaries.json
 results/canonical/README.md
-results/canonical/manuscript_results.csv
-results/canonical/manuscript_results.json
 results/canonical/registry_status.json
+results/canonical/results.csv
+results/canonical/results.json
 results/derived/table_deep_coverage_removal.csv
 results/derived/table_main_comparison.csv
 results/runs/imagenet3lf_ckpt/imagenet3lf_canonical_summary.json
@@ -82,7 +79,7 @@ results/runs/source_manifest.json
 scripts/_registry.py
 scripts/build_manifest.py
 scripts/check_results.py
-scripts/export_manuscript_tables.py
+scripts/export_tables.py
 scripts/generate_fig2a.py
 scripts/generate_fig2b.py
 scripts/generate_fig3.py

@@ -5,28 +5,28 @@ import pytest
 from scripts.validate_repository import ROOT, validate
 
 
-def test_registry_matches_accepted_master_scope():
-    assert validate() == (76, 4)
+def test_registry_consistency():
+    assert validate() == 76
 
 
-def test_archived_summary_cannot_be_reintroduced(tmp_path):
-    shutil.copytree(ROOT / 'results', tmp_path / 'results')
-    base = tmp_path / 'results/canonical/manuscript_results'
+def test_duplicate_record_is_rejected(tmp_path):
+    shutil.copytree(ROOT / 'results/canonical', tmp_path / 'results/canonical')
+    base = tmp_path / 'results/canonical/results'
     with base.with_suffix('.csv').open(newline='') as f:
-        reader = csv.DictReader(f); fields = reader.fieldnames; rows = list(reader)
-    with (tmp_path / 'results/archive/additional_summaries.csv').open(newline='') as f:
-        rejected = next(csv.DictReader(f))
-    rejected['manuscript_eligible'] = 'true'; rows.append(rejected)
+        reader = csv.DictReader(f)
+        fields = reader.fieldnames
+        rows = list(reader)
+    rows.append(rows[0].copy())
     with base.with_suffix('.csv').open('w', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=fields); writer.writeheader(); writer.writerows(rows)
-    j = json.loads(base.with_suffix('.json').read_text())
-    for key in ('mean', 'sd', 'value'):
-        rejected[key] = float(rejected[key]) if rejected[key] else None
-    for key in ('seed', 'run_index'):
-        rejected[key] = int(rejected[key]) if rejected[key] else None
-    j.append(rejected); base.with_suffix('.json').write_text(json.dumps(j))
+        writer = csv.DictWriter(f, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(rows)
+    records = json.loads(base.with_suffix('.json').read_text())
+    records.append(records[0].copy())
+    base.with_suffix('.json').write_text(json.dumps(records))
     p = tmp_path / 'results/canonical/registry_status.json'
-    status = json.loads(p.read_text()); status['accepted_records'] += 1; p.write_text(json.dumps(status))
-    with pytest.raises(ValueError, match='Archived summary reintroduced'):
+    status = json.loads(p.read_text())
+    status['records'] += 1
+    p.write_text(json.dumps(status))
+    with pytest.raises(ValueError, match='Duplicate record'):
         validate(tmp_path)
-

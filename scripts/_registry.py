@@ -1,4 +1,4 @@
-"""Read the accepted registry; artifact scripts never read archived data."""
+"""Load and select experimental result records."""
 from pathlib import Path
 import csv
 
@@ -6,10 +6,10 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def load_rows():
-    with (ROOT / 'results/canonical/manuscript_results.csv').open(encoding='utf-8', newline='') as f:
+    with (ROOT / 'results/canonical/results.csv').open(encoding='utf-8', newline='') as f:
         rows = list(csv.DictReader(f))
-    if not rows or any(r['manuscript_eligible'].lower() != 'true' for r in rows):
-        raise ValueError('Expected a nonempty registry of accepted manuscript records')
+    if not rows:
+        raise ValueError('Expected a nonempty result registry')
     return rows
 
 

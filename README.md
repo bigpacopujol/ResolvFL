@@ -1,6 +1,6 @@
 # ResolvFL
 
-Core code and manuscript artifacts for **Identifiable Fine-Grained Recognition from Federated Mixed-Granularity Supervision**.
+ResolvFL is a federated learning framework for fine-grained recognition from mixed-granularity taxonomic supervision.
 
 ResolvFL addresses fine-grained recognition when federated clients annotate examples at different depths of a shared taxonomy. It combines four components:
 
@@ -9,7 +9,7 @@ ResolvFL addresses fine-grained recognition when federated clients annotate exam
 3. **empirical coverage auditing**, which identifies the internal decisions represented by the observed federation;
 4. **node-specific federated aggregation**, using the clients that supervise each decision.
 
-The repository provides the ResolvFL implementation, training notebooks, experimental configurations, metric definitions, and results for CIFAR-100, iNat-Aves, and ImageNet-3L/F. It also includes scripts to generate the manuscript tables and figures. See the [experiment guide](docs/TRAINING.md) for the dataset-specific notebooks and saved run outputs.
+The repository provides the ResolvFL implementation, training notebooks, experimental configurations, metric definitions, and results for CIFAR-100, iNat-Aves, and ImageNet-3L/F. It also includes scripts to generate the experiment tables and figures. See the [experiment guide](docs/TRAINING.md) for the dataset-specific notebooks and saved run outputs.
 
 ## Quick start
 
@@ -78,13 +78,13 @@ updated_head = resolvfl_endpoint_average(
 )
 ```
 
-## Reproduce manuscript artifacts
+## Generate tables and figures
 
-The manuscript-facing tables and figures are generated from `results/canonical/manuscript_results.csv`:
+The experimental tables and figures are generated from `results/canonical/results.csv`:
 
 ```bash
 python scripts/validate_repository.py
-python scripts/export_manuscript_tables.py
+python scripts/export_tables.py
 python scripts/generate_fig2a.py
 python scripts/generate_fig2b.py
 python scripts/generate_fig3.py
@@ -127,18 +127,18 @@ The metric definitions used throughout the repository are fixed in `docs/METRIC_
 src/resolvfl/       core ResolvFL implementation
 configs/            dataset and protocol configurations
 tests/              unit tests for loss, taxonomy, coverage, aggregation and metrics
-results/canonical/  manuscript-facing result registry
-results/derived/    generated manuscript tables
+results/canonical/  experimental result registry
+results/derived/    generated summary tables
 scripts/            validation and figure/table generation
 docs/               dataset, experiment and metric documentation
 experiments/        training notebooks and Python scripts
 results/runs/       saved run outputs and source hashes
-figures/            regenerated manuscript figures
+figures/            experiment figures
 ```
 
 ## Reproducibility
 
-`docs/REPRODUCIBILITY.md` describes the artifact workflow and the provenance recorded with each manuscript-facing result. `docs/EXPERIMENTS.md` contains the experimental protocol and dataset-specific settings.
+`docs/REPRODUCIBILITY.md` describes the artifact workflow and the provenance recorded with each experimental result. `docs/EXPERIMENTS.md` contains the experimental protocol and dataset-specific settings.
 
 ## Experiment sources
 
@@ -146,7 +146,7 @@ Training notebooks and Python scripts are in `experiments/`; saved run outputs a
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`. The associated manuscript is:
+Citation metadata are provided in `CITATION.cff`. Related research:
 
 **Identifiable Fine-Grained Recognition from Federated Mixed-Granularity Supervision**.
 
